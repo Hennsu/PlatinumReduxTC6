@@ -836,7 +836,7 @@ var RBY = {
     },
     Weezing: {
         types: ['Poison', 'Electric'],
-        bs: { hp: 115, at: 50, df: 110, sp: 60, sl: 90 },
+        bs: { hp: 113, at: 61, df: 109, sp: 62, sl: 62 },
         weightkg: 9.5
     },
     Wigglytuff: {
@@ -1004,7 +1004,7 @@ var GSC_PATCH = {
     Wartortle: { bs: { sa: 95, sd: 75 } },
     Weedle: { bs: { sa: 50, sd: 75 } },
     Weepinbell: { bs: { sa: 75, sd: 75 } },
-    Weezing: { bs: { sa: 90, sd: 80 } },
+    Weezing: { bs: { sa: 84, sd: 76 } },
     Wigglytuff: { bs: { sa: 75, sd: 90 } },
     Zapdos: { bs: { sa: 120, sd: 90 }, gender: 'N' },
     Zubat: { bs: { sa: 60, sd: 55 } },
@@ -2894,7 +2894,7 @@ var DPP_PATCH = {
     },
     Drifloon: {
         types: ['Ghost', 'Flying'],
-        bs: { hp: 105, at: 55, df: 70, sa: 75, sd: 50, sp: 70 },
+        bs: { hp: 102, at: 55, df: 62, sa: 75, sd: 46, sp: 70 },
         weightkg: 1.2,
         nfe: true,
         abilities: { 0: 'Heatproof' }
@@ -3014,7 +3014,7 @@ var DPP_PATCH = {
     },
     Gliscor: {
         types: ['Ground', 'Flying'],
-        bs: { hp: 85, at: 95, df: 115, sa: 70, sd: 83, sp: 90 },
+        bs: { hp: 87, at: 100, df: 118, sa: 65, sd: 83, sp: 90 },
         weightkg: 42.5,
         abilities: { 0: 'Sand Veil' }
     },
@@ -3356,7 +3356,7 @@ var DPP_PATCH = {
     },
     Rotom: {
         types: ['Electric', 'Ghost'],
-        bs: { hp: 75, at: 55, df: 72, sa: 115, sd: 90, sp: 118 },
+        bs: { hp: 75, at: 55, df: 72, sa: 112, sd: 90, sp: 116 },
         weightkg: 0.3,
         abilities: { 0: 'Drizzle' },
         gender: 'N',
@@ -3446,7 +3446,7 @@ var DPP_PATCH = {
     },
     Skuntank: {
         types: ['Poison', 'Normal'],
-        bs: { hp: 123, at: 93, df: 97, sa: 73, sd: 85, sp: 62 },
+        bs: { hp: 123, at: 94, df: 97, sa: 73, sd: 85, sp: 66 },
         weightkg: 38,
         abilities: { 0: 'Unaware' }
     },
@@ -3465,20 +3465,20 @@ var DPP_PATCH = {
     },
     Staraptor: {
         types: ['Fighting', 'Flying'],
-        bs: { hp: 95, at: 110, df: 86, sa: 50, sd: 75, sp: 114 },
+        bs: { hp: 92, at: 110, df: 86, sa: 55, sd: 75, sp: 112 },
         weightkg: 24.9,
         abilities: { 0: 'Reckless' }
     },
     Staravia: {
         types: ['Normal', 'Flying'],
-        bs: { hp: 75, at: 90, df: 65, sa: 45, sd: 60, sp: 95 },
+        bs: { hp: 75, at: 85, df: 65, sa: 45, sd: 60, sp: 95 },
         weightkg: 15.5,
         nfe: true,
         abilities: { 0: 'Reckless' }
     },
     Starly: {
         types: ['Normal', 'Flying'],
-        bs: { hp: 60, at: 80, df: 50, sa: 40, sd: 50, sp: 80 },
+        bs: { hp: 60, at: 75, df: 50, sa: 40, sd: 50, sp: 74 },
         weightkg: 2,
         nfe: true,
         abilities: { 0: 'Reckless' }
@@ -3581,11 +3581,151 @@ var DPP_PATCH = {
         weightkg: 51.5,
         abilities: { 0: 'Tinted Lens' }
     },
-    Zekrom: {
-        types: ['Dragon', 'Electric'],
-        bs: { hp: 95, at: 150, df: 90, sa: 100, sd: 80, sp: 85 },
+    Tynamo: {
+        types: ['Electric', 'Electric'],
+        bs: { hp: 46, at: 65, df: 53, sa: 70, sd: 59, sp: 55 },
         weightkg: 345,
-        abilities: { 0: 'Mold Breaker' },
+        abilities: { 0: 'Swift Swim' },
+        gender: 'N'
+    },
+    Eelektrik: {
+        types: ['Electric', 'Electric'],
+        bs: { hp: 61, at: 95, df: 57, sa: 90, sd: 70, sp: 74 },
+        weightkg: 345,
+        abilities: { 0: 'Swift Swim' },
+        gender: 'N'
+    },
+        Eelektross: {
+        types: ['Electric', 'Poison'],
+        bs: { hp: 91, at: 115, df: 77, sa: 105, sd: 90, sp: 87 },
+        weightkg: 345,
+        abilities: { 0: 'Swift Swim' },
+        gender: 'N'
+    },
+    Drilbur: {
+        types: ['Ground', 'Ground'],
+        bs: { hp: 82, at: 95, df: 60, sa: 40, sd: 70, sp: 78 },
+        weightkg: 345,
+        abilities: { 0: 'Sand Veil' },
+        gender: 'N'
+    },
+    Excadrill: {
+        types: ['Ground', 'Steel'],
+        bs: { hp: 105, at: 137, df: 75, sa: 55, sd: 90, sp: 83 },
+        weightkg: 345,
+        abilities: { 0: 'Sand Veil' },
+        gender: 'N'
+    },
+    Sandygast: {
+        types: ['Ghost', 'Ground'],
+        bs: { hp: 88, at: 55, df: 91, sa: 76, sd: 65, sp: 42 },
+        weightkg: 345,
+        abilities: { 0: 'Water Absorb' },
+        gender: 'N'
+    },
+    Palossand: {
+        types: ['Ghost', 'Ground'],
+        bs: { hp: 104, at: 71, df: 115, sa: 103, sd: 90, sp: 47 },
+        weightkg: 345,
+        abilities: { 0: 'Water Absorb' },
+        gender: 'N'
+    },
+    JangmoO: {
+        types: ['Dragon', 'Fighting'],
+        bs: { hp: 59, at: 76, df: 68, sa: 40, sd: 55, sp: 51 },
+        weightkg: 345,
+        abilities: { 0: 'Inner Focus' },
+        gender: 'N'
+    },
+    HakamoO: {
+        types: ['Dragon', 'Fighting'],
+        bs: { hp: 69, at: 100, df: 85, sa: 59, sd: 65, sp: 71 },
+        weightkg: 345,
+        abilities: { 0: 'Inner Focus' },
+        gender: 'N'
+    },
+    Phantump: {
+        types: ['Ghost', 'Grass'],
+        bs: { hp: 69, at: 80, df: 65, sa: 85, sd: 73, sp: 68 },
+        weightkg: 345,
+        abilities: { 0: 'Bad Dreams' },
+        gender: 'N'
+    },
+    Trevenant: {
+        types: ['Ghost', 'Grass'],
+        bs: { hp: 104, at: 71, df: 115, sa: 103, sd: 90, sp: 47 },
+        weightkg: 345,
+        abilities: { 0: 'Bad Dreams' },
+        gender: 'N'
+    },
+    KommoO: {
+        types: ['Dragon', 'Dragon'],
+        bs: { hp: 79, at: 113, df: 125, sa: 76, sd: 101, sp: 81 },
+        weightkg: 345,
+        abilities: { 0: 'Inner Focus' },
+        gender: 'N'
+    },
+    Fletchling: {
+        types: ['Normal', 'Flying'],
+        bs: { hp: 44, at: 69, df: 45, sa: 40, sd: 55, sp: 92 },
+        weightkg: 345,
+        abilities: { 0: 'Reckless' },
+        gender: 'N'
+    },
+    Flechinder: {
+        types: ['Fire', 'Flying'],
+        bs: { hp: 59, at: 81, df: 55, sa: 50, sd: 75, sp: 120 },
+        weightkg: 345,
+        abilities: { 0: 'Reckless' },
+        gender: 'N'
+    },
+    Talonflame: {
+        types: ['Fire', 'Flying'],
+        bs: { hp: 78, at: 96, df: 75, sa: 60, sd: 86, sp: 145 },
+        weightkg: 345,
+        abilities: { 0: 'Reckless' },
+        gender: 'N'
+    },
+    Cubchoo: {
+        types: ['Ice', 'Ice'],
+        bs: { hp: 79, at: 76, df: 70, sa: 52, sd: 80, sp: 53 },
+        weightkg: 345,
+        abilities: { 0: 'Snow Cloak' },
+        gender: 'N'
+    },
+    Beartic: {
+        types: ['Ice', 'Fighting'],
+        bs: { hp: 101, at: 136, df: 83, sa: 68, sd: 96, sp: 81 },
+        weightkg: 345,
+        abilities: { 0: 'Snow Cloak' },
+        gender: 'N'
+    },
+    Dwebble: {
+        types: ['Bug', 'Rock'],
+        bs: { hp: 50, at: 81, df: 91, sa: 61, sd: 96, sp: 41 },
+        weightkg: 345,
+        abilities: { 0: 'Water Absorb' },
+        gender: 'N'
+    },
+    Crustle: {
+        types: ['Bug', 'Rock'],
+        bs: { hp: 76, at: 105, df: 113, sa: 76, sd: 127, sp: 51 },
+        weightkg: 345,
+        abilities: { 0: 'Water Absorb' },
+        gender: 'N'
+    },
+    Skrelp: {
+        types: ['Poison', 'Water'],
+        bs: { hp: 63, at: 62, df: 60, sa: 81, sd: 105, sp: 41 },
+        weightkg: 345,
+        abilities: { 0: 'Adaptability' },
+        gender: 'N'
+    },
+    Dragalge: {
+        types: ['Poison', 'Dragon'],
+        bs: { hp: 79, at: 72, df: 90, sa: 111, sd: 130, sp: 48 },
+        weightkg: 345,
+        abilities: { 0: 'Adaptability' },
         gender: 'N'
     },
     Zweilous: {
