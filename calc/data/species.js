@@ -461,7 +461,7 @@ var RBY = {
     },
     Mankey: {
         types: ['Fighting'],
-        bs: { hp: 40, at: 80, df: 35, sp: 70, sl: 35 },
+        bs: { hp: 50, at: 90, df: 45, sp: 85, sl: 50 },
         weightkg: 28,
         nfe: true
     },
@@ -498,8 +498,8 @@ var RBY = {
         weightkg: 60
     },
     'Mr. Mime': {
-        types: ['Psychic'],
-        bs: { hp: 40, at: 45, df: 65, sp: 90, sl: 100 },
+        types: ['Psychic', 'Ice'],
+        bs: { hp: 76, at: 56, df: 83, sp: 94, sl: 136 },
         weightkg: 54.5
     },
     Muk: {
@@ -642,7 +642,7 @@ var RBY = {
     },
     Primeape: {
         types: ['Fighting'],
-        bs: { hp: 65, at: 105, df: 60, sp: 95, sl: 60 },
+        bs: { hp: 80, at: 100, df: 55, sp: 90, sl: 75 },
         weightkg: 32
     },
     Psyduck: {
@@ -934,14 +934,14 @@ var GSC_PATCH = {
     Magmar: { bs: { sa: 95, sd: 75 } },
     Magnemite: { types: ['Electric', 'Steel'], bs: { sa: 90, sd: 65 }, gender: 'N' },
     Magneton: { types: ['Electric', 'Steel'], bs: { sa: 115, sd: 80 }, gender: 'N' },
-    Mankey: { bs: { sa: 35, sd: 45 } },
+    Mankey: { bs: { sa: 50, sd: 55 } },
     Marowak: { bs: { sa: 60, sd: 100 } },
     Meowth: { bs: { sa: 50, sd: 70 } },
     Metapod: { bs: { sa: 64, sd: 96 } },
     Mew: { bs: { sa: 110, sd: 100 }, gender: 'N' },
     Mewtwo: { bs: { sa: 150, sd: 90 }, gender: 'N' },
     Moltres: { bs: { sa: 125, sd: 85 }, gender: 'N' },
-    'Mr. Mime': { bs: { sa: 100, sd: 120 } },
+    'Mr. Mime': { bs: { sa: 130, sd: 136 } },
     Muk: { bs: { sa: 90, sd: 115 } },
     Nidoking: { bs: { sa: 100, sd: 80 } },
     Nidoqueen: { bs: { sa: 74, sd: 84 } },
@@ -967,7 +967,7 @@ var GSC_PATCH = {
     Poliwrath: { bs: { sa: 85, sd: 100 } },
     Ponyta: { bs: { sa: 70, sd: 55 } },
     Porygon: { bs: { sa: 65, sd: 50 }, nfe: true, gender: 'N' },
-    Primeape: { bs: { sa: 60, sd: 70 } },
+    Primeape: { bs: { sa: 60, sd: 75 } },
     Psyduck: { bs: { sa: 80, sd: 85 } },
     Raichu: { bs: { sa: 115, sd: 90 } },
     Rapidash: { bs: { sa: 85, sd: 75 } },
@@ -1122,7 +1122,7 @@ var GSC_PATCH = {
         bs: { hp: 85, at: 85, df: 145, sa: 80, sd: 85, sp: 59 },
         weightkg: 125.8
     },
-    Furret: { types: ['Normal'], bs: { hp: 85, at: 76, df: 64, sa: 45, sd: 55, sp: 90 }, weightkg: 32.5 },
+    Furret: { types: ['Normal', 'Fire'], bs: { hp: 93, at: 97, df: 76, sa: 77, sd: 100, sp: 122 }, weightkg: 32.5 },
     Girafarig: {
         types: ['Normal', 'Psychic'],
         bs: { hp: 95, at: 94, df: 100, sa: 101, sd: 85, sp: 95 },
@@ -1243,8 +1243,8 @@ var GSC_PATCH = {
         weightkg: 100.5
     },
     Miltank: {
-        types: ['Normal'],
-        bs: { hp: 95, at: 80, df: 105, sa: 40, sd: 70, sp: 100 },
+        types: ['Normal', 'Grass'],
+        bs: { hp: 106, at: 95, df: 111, sa: 78, sd: 86, sp: 91 },
         weightkg: 75.5
     },
     Misdreavus: {
@@ -1342,7 +1342,7 @@ var GSC_PATCH = {
     },
     Sentret: {
         types: ['Normal'],
-        bs: { hp: 35, at: 46, df: 34, sa: 35, sd: 45, sp: 20 },
+        bs: { hp: 62, at: 79, df: 56, sa: 59, sd: 70, sp: 99 },
         weightkg: 6,
         nfe: true
     },
@@ -1579,14 +1579,14 @@ var ADV_PATCH = {
     Magmar: { abilities: { 0: 'Flame Body' } },
     Magnemite: { abilities: { 0: 'Levitate' } },
     Magneton: { abilities: { 0: 'Levitate' } },
-    Mankey: { abilities: { 0: 'Vital Spirit' } },
+    Mankey: { abilities: { 0: 'Insomnia' } },
     Marowak: { abilities: { 0: 'Rock Head' } },
     Meowth: { abilities: { 0: 'Super Luck' } },
     Metapod: { abilities: { 0: 'Shed Skin' } },
     Mew: { abilities: { 0: 'Synchronize' } },
     Mewtwo: { abilities: { 0: 'Natural Cure' } },
     Moltres: { abilities: { 0: 'Flame Body' } },
-    'Mr. Mime': { abilities: { 0: 'Soundproof' } },
+    'Mr. Mime': { abilities: { 0: 'Ice Body' } },
     Muk: { abilities: { 0: 'Liquid Ooze' } },
     Nidoking: { abilities: { 0: 'Hustle' } },
     Nidoqueen: { abilities: { 0: 'Rough Skin' } },
@@ -1612,7 +1612,7 @@ var ADV_PATCH = {
     Poliwrath: { abilities: { 0: 'Iron Fist' } },
     Ponyta: { abilities: { 0: 'Flame Body' } },
     Porygon: { abilities: { 0: 'Adaptability' } },
-    Primeape: { abilities: { 0: 'Vital Spirit' } },
+    Primeape: { abilities: { 0: 'Insomnia' } },
     Psyduck: { abilities: { 0: 'Bad Dreams' } },
     Raichu: { abilities: { 0: 'Super Luck' } },
     Rapidash: { abilities: { 0: 'Motor Drive' } },
@@ -1675,7 +1675,7 @@ var ADV_PATCH = {
     Feraligatr: { abilities: { 0: 'Intimidate' } },
     Flaaffy: { abilities: { 0: 'Static' } },
     Forretress: { abilities: { 0: 'Effect Spore' } },
-    Furret: { abilities: { 0: 'Run Away' } },
+    Furret: { abilities: { 0: 'Sand Veil' } },
     Girafarig: { abilities: { 0: 'Immunity' } },
     Gligar: { abilities: { 0: 'Sand Veil' } },
     Granbull: { abilities: { 0: 'Intimidate' } },
@@ -1716,7 +1716,7 @@ var ADV_PATCH = {
     Raikou: { abilities: { 0: 'Pressure' } },
     Remoraid: { abilities: { 0: 'Compound Eyes' } },
     Scizor: { abilities: { 0: 'Technician' } },
-    Sentret: { abilities: { 0: 'Run Away' } },
+    Sentret: { abilities: { 0: 'Limber' } },
     Shuckle: { abilities: { 0: 'Solid Rock' } },
     Skarmory: { abilities: { 0: 'Rock Head' } },
     Skiploom: { abilities: { 0: 'Serene Grace' } },
@@ -2061,10 +2061,10 @@ var ADV_PATCH = {
         abilities: { 0: 'Hydration' }
     },
     Linoone: {
-        types: ['Normal'],
-        bs: { hp: 78, at: 70, df: 61, sa: 50, sd: 61, sp: 100 },
+        types: ['Normal', 'Ice'],
+        bs: { hp: 84, at: 106, df: 86, sa: 77, sd: 77, sp: 128 },
         weightkg: 32.5,
-        abilities: { 0: 'Pickup' }
+        abilities: { 0: 'Snow Cloak' }
     },
     Lombre: {
         types: ['Water', 'Grass'],
@@ -2471,10 +2471,10 @@ var ADV_PATCH = {
     },
     Zigzagoon: {
         types: ['Normal'],
-        bs: { hp: 38, at: 30, df: 41, sa: 30, sd: 41, sp: 60 },
+        bs: { hp: 62, at: 79, df: 74, sa: 53, sd: 58, sp: 99 },
         weightkg: 17.5,
         nfe: true,
-        abilities: { 0: 'Pickup' }
+        abilities: { 0: 'Limber' }
     }
 };
 var ADV = (0, util_1.extend)(true, {}, GSC, ADV_PATCH);
@@ -3011,6 +3011,27 @@ var DPP_PATCH = {
         nfe: true,
         abilities: { 0: 'Intimidate' }
     },
+    Annihilape: {
+        types: ['Fighting', 'Ghost'],
+        bs: { hp: 110, at: 115, df: 80, sa: 64, sd: 96, sp: 90 },
+        weightkg: 2.1,
+        abilities: { 0: 'Insomnia' },
+        gender: 'N',
+    },
+    Makuhita: {
+        types: ['Fighting'],
+        bs: { hp: 108, at: 86, df: 51, sa: 45, sd: 73, sp: 48 },
+        weightkg: 2.1,
+        abilities: { 0: 'Iron Fist' },
+        gender: 'N',
+    },
+    Hariyama: {
+        types: ['Fighting', 'Electric'],
+        bs: { hp: 146, at: 120, df: 65, sa: 55, sd: 86, sp: 59 },
+        weightkg: 2.1,
+        abilities: { 0: 'Iron Fist' },
+        gender: 'N',
+    },
     Shaymin: {
         types: ['Grass', 'Flying'],
         bs: { hp: 87, at: 81, df: 82, sa: 120, sd: 93, sp: 117 },
@@ -3038,6 +3059,69 @@ var DPP_PATCH = {
         weightkg: 12,
         nfe: true,
         abilities: { 0: 'Poison Point' }
+    },
+    Obstagoon: {
+        types: ['Normal', 'Dark'],
+        bs: { hp: 93, at: 99, df: 101, sa: 66, sd: 81, sp: 95 },
+        weightkg: 12,
+        nfe: true,
+        abilities: { 0: 'Intimidate' }
+    },
+    Rockruff: {
+        types: ['Rock'],
+        bs: { hp: 67, at: 83, df: 76, sa: 51, sd: 51, sp: 93 },
+        weightkg: 12,
+        nfe: true,
+        abilities: { 0: 'Sand Veil' }
+    },
+    Spoink: {
+        types: ['Psychic'],
+        bs: { hp: 68, at: 51, df: 63, sa: 76, sd: 100, sp: 71 },
+        weightkg: 12,
+        nfe: true,
+        abilities: { 0: 'Trace' }
+    },
+    Grumpig: {
+        types: ['Psychic', 'Dark'],
+        bs: { hp: 93, at: 66, df: 82, sa: 112, sd: 120, sp: 92 },
+        weightkg: 12,
+        nfe: true,
+        abilities: { 0: 'Trace' }
+    },
+    Clodsire: {
+        types: ['Poison', 'Ground'],
+        bs: { hp: 138, at: 86, df: 79, sa: 83, sd: 100, sp: 29 },
+        weightkg: 12,
+        nfe: true,
+        abilities: { 0: 'Water Absorb' }
+    },
+    Ursaluna: {
+        types: ['Normal', 'Ground'],
+        bs: { hp: 136, at: 121, df: 88, sa: 57, sd: 96, sp: 59 },
+        weightkg: 12,
+        nfe: true,
+        abilities: { 0: 'Inner Focus' }
+    },
+    Lycanroc: {
+        types: ['Rock', 'Dark'],
+        bs: { hp: 79, at: 116, df: 98, sa: 58, sd: 75, sp: 127 },
+        weightkg: 12,
+        nfe: true,
+        abilities: { 0: 'Sand Veil' }
+    },
+    Poochyena: {
+        types: ['Dark'],
+        bs: { hp: 59, at: 79, df: 71, sa: 50, sd: 58, sp: 83 },
+        weightkg: 12,
+        nfe: true,
+        abilities: { 0: 'Adaptability' }
+    },
+    Mightyena: {
+        types: ['Dark', 'Fire'],
+        bs: { hp: 79, at: 112, df: 91, sa: 61, sd: 82, sp: 99 },
+        weightkg: 12,
+        nfe: true,
+        abilities: { 0: 'Adaptability' }
     },
     Skuntank: {
         types: ['Poison', 'Normal'],
