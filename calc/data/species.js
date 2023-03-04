@@ -417,7 +417,7 @@ var RBY = {
     },
     Lickitung: {
         types: ['Normal'],
-        bs: { hp: 90, at: 55, df: 75, sp: 30, sl: 60 },
+        bs: { hp: 110, at: 79, df: 60, sp: 45, sl: 45 },
         weightkg: 65.5
     },
     Machamp: {
@@ -926,7 +926,7 @@ var GSC_PATCH = {
     Koffing: { bs: { sa: 80, sd: 60 } },
     Krabby: { bs: { sa: 45, sd: 70 } },
     Lapras: { bs: { sa: 106, sd: 105 } },
-    Lickitung: { bs: { sa: 60, sd: 75 } },
+    Lickitung: { bs: { sa: 61, sd: 90 } },
     Machamp: { bs: { sa: 60, sd: 95 } },
     Machoke: { bs: { sa: 50, sd: 80 } },
     Machop: { bs: { sa: 40, sd: 70 } },
@@ -1562,8 +1562,8 @@ var ADV_PATCH = {
     Jigglypuff: { abilities: { 0: 'Download' } },
     Jolteon: { abilities: { 0: 'Motor Drive' } },
     Jynx: { abilities: { 0: 'Thick Fat' } },
-    Kabuto: { abilities: { 0: 'Solid Rock' } },
-    Kabutops: { abilities: { 0: 'Solid Rock' } },
+    Kabuto: { abilities: { 0: 'Water Veil' } },
+    Kabutops: { abilities: { 0: 'Water Veil' } },
     Kadabra: { abilities: { 0: 'Synchronize' } },
     Kakuna: { abilities: { 0: 'Shed Skin' } },
     Kangaskhan: { abilities: { 0: 'Scrappy' } },
@@ -1571,7 +1571,7 @@ var ADV_PATCH = {
     Koffing: { abilities: { 0: 'Levitate' } },
     Krabby: { abilities: { 0: 'Clear Body' } },
     Lapras: { abilities: { 0: 'Thick Fat' } },
-    Lickitung: { abilities: { 0: 'Own Tempo' } },
+    Lickitung: { abilities: { 0: 'Air Lock' } },
     Machamp: { abilities: { 0: 'No Guard' } },
     Machoke: { abilities: { 0: 'No Guard' } },
     Machop: { abilities: { 0: 'No Guard' } },
@@ -2758,6 +2758,12 @@ var DPP_PATCH = {
         weightkg: 430,
         abilities: { 0: 'Flash Fire' }
     },
+    Lickilicky: {
+        types: ['Normal', 'Ghost'],
+        bs: { hp: 129, at: 93, df: 81, sa: 81, sd: 104, sp: 47 },
+        weightkg: 430,
+        abilities: { 0: 'Air Lock' }
+    },
     Hippopotas: {
         types: ['Ground'],
         bs: { hp: 95, at: 95, df: 85, sa: 60, sd: 75, sp: 40 },
@@ -3431,6 +3437,90 @@ var DPP_PATCH = {
         bs: { hp: 73, at: 67, df: 75, sa: 112, sd: 82, sp: 126 },
         weightkg: 345,
         abilities: { 0: 'Serence Grace' },
+        gender: 'N'
+    },
+    Genesect: {
+        types: ['Bug', 'Steel'],
+        bs: { hp: 76, at: 83, df: 90, sa: 106, sd: 99, sp: 91 },
+        weightkg: 345,
+        abilities: { 0: 'Download' },
+        gender: 'N'
+    },
+    Nihilego: {
+        types: ['Rock', 'Poison'],
+        bs: { hp: 109, at: 74, df: 74, sa: 98, sd: 131, sp: 94 },
+        weightkg: 345,
+        abilities: { 0: 'Poison Point' },
+        gender: 'N'
+    },
+    Rolycoly: {
+        types: ['Rock', 'Rock'],
+        bs: { hp: 75, at: 50, df: 70, sa: 65, sd: 60, sp: 31 },
+        weightkg: 345,
+        abilities: { 0: 'Flame Body' },
+        gender: 'N'
+    },
+    Carkol: {
+        types: ['Rock', 'Fire'],
+        bs: { hp: 95, at: 65, df: 90, sa: 80, sd: 70, sp: 35 },
+        weightkg: 345,
+        abilities: { 0: 'Flame Body' },
+        gender: 'N'
+    },
+    Coalossal: {
+        types: ['Rock', 'Fire'],
+        bs: { hp: 132, at: 80, df: 108, sa: 106, sd: 97, sp: 37 },
+        weightkg: 345,
+        abilities: { 0: 'Flame Body' },
+        gender: 'N'
+    },
+    ChienPao: {
+        types: ['Dark', 'Ice'],
+        bs: { hp: 77, at: 115, df: 75, sa: 103, sd: 75, sp: 135 },
+        weightkg: 345,
+        abilities: { 0: 'Snow Cloak' },
+        gender: 'N'
+    },
+    Xurkitree: {
+        types: ['Electric', 'Grass'],
+        bs: { hp: 82, at: 103, df: 73, sa: 149, sd: 92, sp: 81 },
+        weightkg: 345,
+        abilities: { 0: 'Volt Absorb' },
+        gender: 'N'
+    },
+    Ferroseed: {
+        types: ['Grass', 'Steel'],
+        bs: { hp: 65, at: 73, df: 113, sa: 57, sd: 82, sp: 30 },
+        weightkg: 345,
+        abilities: { 0: 'Rough Skin' },
+        gender: 'N'
+    },
+    Ferrothorn: {
+        types: ['Grass', 'Steel'],
+        bs: { hp: 73, at: 94, df: 133, sa: 71, sd: 107, sp: 32 },
+        weightkg: 345,
+        abilities: { 0: 'Rough Skin' },
+        gender: 'N'
+    },
+    Helioptile: {
+        types: ['Electric', 'Normal'],
+        bs: { hp: 58, at: 61, df: 61, sa: 99, sd: 81, sp: 93 },
+        weightkg: 345,
+        abilities: { 0: 'Sand Veil' },
+        gender: 'N'
+    },
+    Heliolisk: {
+        types: ['Electric', 'Normal'],
+        bs: { hp: 72, at: 66, df: 77, sa: 124, sd: 98, sp: 114 },
+        weightkg: 345,
+        abilities: { 0: 'Sand Veil' },
+        gender: 'N'
+    },
+    Marshadow: {
+        types: ['Fighting', 'Ghost'],
+        bs: { hp: 79, at: 81, df: 81, sa: 122, sd: 91, sp: 101 },
+        weightkg: 345,
+        abilities: { 0: 'Hustle' },
         gender: 'N'
     },
     Amaura: {
