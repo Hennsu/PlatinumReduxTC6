@@ -65,7 +65,7 @@ var RBY = {
     'Dream Eater': { bp: 70, type: 'Dark', drain: [1, 2] },
     Earthquake: { bp: 85, type: 'Ground' },
     'Fire Blast': { bp: 100, type: 'Fire' },
-    'Fire Spin': { bp: 65, type: 'Fire' },
+    'Fire Spin': { bp: 60, type: 'Fire' },
     Fissure: { bp: 105, type: 'Ground' },
     Fly: { bp: 75, type: 'Flying' },
     'Focus Energy': { bp: 0, category: 'Status', type: 'Fighting' },
@@ -77,7 +77,7 @@ var RBY = {
     Gust: { bp: 50, type: 'Normal' },
     Haze: { bp: 50, type: 'Ice' },
     'High Jump Kick': { bp: 100, type: 'Fighting', recoil: [25, 100] },
-    'Horn Drill': { bp: 135, type: 'Ground' },
+    'Horn Drill': { bp: 120, type: 'Ground' },
     'Hyper Beam': { bp: 120, type: 'Normal' },
     'Karate Chop': { bp: 65, type: 'Normal' },
     'Leech Seed': { bp: 0, category: 'Status', type: 'Grass' },
@@ -103,7 +103,7 @@ var RBY = {
     'Sonic Boom': { bp: 1, type: 'Electric' },
     Struggle: { bp: 50, type: 'Normal', recoil: [1, 2] },
     'Stun Spore': { bp: 0, category: 'Status', type: 'Grass' },
-    Submission: { bp: 95, type: 'Fighting', recoil: [1, 4] },
+    Submission: { bp: 80, type: 'Fighting', recoil: [1, 4] },
     'Super Fang': { bp: 1, type: 'Normal' },
     Swift: { bp: 75, type: 'Normal' },
     Thrash: { bp: 105, type: 'Normal' },
@@ -117,13 +117,13 @@ var RBY = {
     'Poison Gas': { bp: 0, category: 'Status', type: 'Poison' },
     'Poison Powder': { bp: 0, category: 'Status', type: 'Poison' },
     'String Shot': { bp: 70, type: 'Bug' },
-    Surf: { bp: 75, type: 'Water' },
+    Surf: { bp: 80, type: 'Water' },
     'Tail Whip': { bp: 35, type: 'Fighting' },
     Toxic: { bp: 0, category: 'Status', type: 'Poison' },
     Hypnosis: { bp: 0, category: 'Status', type: 'Psychic' },
     'Leech Life': { bp: 70, type: 'Bug', drain: [1, 2] },
     'Mega Drain': { bp: 50, type: 'Grass', drain: [1, 2] },
-    'Vine Whip': { bp: 55, type: 'Grass' },
+    'Vine Whip': { bp: 50, type: 'Grass' },
     Waterfall: { bp: 75, type: 'Water' },
     Tackle: { bp: 55, type: 'Normal' },
     'Acid Armor': { bp: 0, category: 'Status', type: 'Poison' },
@@ -140,7 +140,7 @@ var RBY = {
     Supersonic: { bp: 0, category: 'Status', type: 'Normal' },
     'Swords Dance': { bp: 0, category: 'Status', type: 'Normal' },
     Thunderbolt: { bp: 80, type: 'Electric' },
-    'Bone Club': { bp: 65, type: 'Ground' },
+    'Bone Club': { bp: 55, type: 'Ground' },
     'Hyper Fang': { bp: 75, type: 'Normal' },
     Kinesis: { bp: 70, type: 'Psychic' },
     'Lovely Kiss': { bp: 0, category: 'Status', type: 'Normal' },
@@ -158,9 +158,9 @@ var RBY = {
     Headbutt: { bp: 75, type: 'Normal', recoil: [1, 4] },
     'Horn Attack': { bp: 65, type: 'Normal' },
     'Ice Punch': { bp: 75, type: 'Ice' },
-    'Pay Day': { bp: 85, type: 'Normal' },
-    Pound: { bp: 65, type: 'Steel' },
-    'Quick Attack': { bp: 60, type: 'Normal', priority: 1 },
+    'Pay Day': { bp: 80, type: 'Normal' },
+    Pound: { bp: 50, type: 'Steel' },
+    'Quick Attack': { bp: 50, type: 'Normal', priority: 1 },
     Scratch: { bp: 50, type: 'Normal' },
     Smokescreen: { bp: 35, type: 'Normal' },
     Strength: { bp: 70, type: 'Fighting' },
@@ -172,7 +172,7 @@ var RBY = {
 var GSC_PATCH = {
     Counter: { bp: 0 },
     Dig: { bp: 60 },
-    'Double-Edge': { bp: 110 },
+    'Double-Edge': { bp: 100 },
     Gust: { type: 'Flying' },
     'Karate Chop': { type: 'Fighting' },
     Struggle: { recoil: [1, 4] },
@@ -184,7 +184,7 @@ var GSC_PATCH = {
     'Super Fang': { bp: 0 },
     'Wing Attack': { bp: 70 },
     Aeroblast: { bp: 80, type: 'Flying' },
-    'Cross Chop': { bp: 115, type: 'Fighting' },
+    'Cross Chop': { bp: 110, type: 'Fighting' },
     'Dream Eater': { type: 'Dark' },
     Endure: { bp: 0, category: 'Status', type: 'Normal', priority: 2 },
     Haze: { category: 'Special' },
@@ -193,7 +193,7 @@ var GSC_PATCH = {
     'Mirror Coat': { bp: 0, type: 'Psychic' },
     Moonlight: { bp: 0, category: 'Status', type: 'Dark' },
     'Morning Sun': { bp: 0, category: 'Status', type: 'Fire' },
-    Nightmare: { bp: 100, type: 'Ghost' },
+    Nightmare: { bp: 110, type: 'Ghost' },
     Outrage: { bp: 100, type: 'Dragon' },
     'Powder Snow': { bp: 55, type: 'Ice' },
     Protect: { bp: 0, category: 'Status', type: 'Normal', priority: 2 },
@@ -205,7 +205,7 @@ var GSC_PATCH = {
     Swagger: { bp: 0, category: 'Status', type: 'Normal' },
     Synthesis: { bp: 0, category: 'Status', type: 'Grass' },
     Twister: { bp: 60, type: 'Dragon' },
-    'Ancient Power': { bp: 70, type: 'Rock' },
+    'Ancient Power': { bp: 90, type: 'Rock' },
     Crunch: { bp: 80, type: 'Dark' },
     'Faint Attack': { bp: 75, type: 'Dark' },
     'Giga Drain': { bp: 65, type: 'Grass', drain: [1, 2] },
@@ -219,9 +219,9 @@ var GSC_PATCH = {
     Magnitude: { bp: 0, type: 'Ground' },
     'Scary Face': { bp: 35, type: 'Ghost' },
     Charm: { bp: 0, category: 'Status', type: 'Normal' },
-    Rollout: { bp: 65, type: 'Rock' },
+    Rollout: { bp: 50, type: 'Rock' },
     'Sacred Fire': { bp: 100, type: 'Fire' },
-    'Dragon Breath': { bp: 70, type: 'Dragon' },
+    'Dragon Breath': { bp: 55, type: 'Dragon' },
     'Dynamic Punch': { bp: 80, type: 'Fighting' },
     'Iron Tail': { bp: 90, type: 'Steel' },
     'Mach Punch': { bp: 50, type: 'Fighting', priority: 1 },
@@ -318,7 +318,7 @@ var ADV_PATCH = {
     'Tail Whip': { target: 'allAdjacentFoes' },
     'Thunder Punch': { makesContact: true },
     'Wing Attack': { makesContact: true },
-    Astonish: { bp: 60, type: 'Ghost', makesContact: true },
+    Astonish: { bp: 50, type: 'Ghost', makesContact: true },
     'Bullet Seed': { bp: 30, type: 'Grass', multihit: 2 },
     'Fake Out': { bp: 50, type: 'Normal', priority: 1 },
     Hail: { bp: 0, category: 'Status', type: 'Ice' },
@@ -326,8 +326,8 @@ var ADV_PATCH = {
     'Knock Off': { bp: 60, type: 'Dark', makesContact: true },
     'Leaf Blade': { bp: 80, type: 'Grass', makesContact: true },
     'Needle Arm': { bp: 85, type: 'Grass', makesContact: true },
-    Overheat: { bp: 135, type: 'Fire', self: { boosts: { spa: -2 } }, makesContact: true },
-    'Sand Tomb': { bp: 65, type: 'Ground' },
+    Overheat: { bp: 120, type: 'Fire', self: { boosts: { spa: -2 } }, makesContact: true },
+    'Sand Tomb': { bp: 60, type: 'Ground' },
     Uproar: { bp: 55, type: 'Normal', isSound: true },
     'Volt Tackle': { bp: 100, type: 'Electric', makesContact: true },
     'Weather Ball': { bp: 45, type: 'Normal' },
@@ -347,7 +347,7 @@ var ADV_PATCH = {
     'Poison Fang': { bp: 75, type: 'Poison', makesContact: true },
     'Rock Tomb': { bp: 70, type: 'Rock' },
     'Will-O-Wisp': { bp: 0, category: 'Status', type: 'Fire' },
-    'Ice Ball': { bp: 65, type: 'Ice', makesContact: true },
+    'Ice Ball': { bp: 50, type: 'Ice', makesContact: true },
     'Sheer Cold': { bp: 90, type: 'Ice' },
     'Luster Purge': { bp: 75, type: 'Psychic' },
     'Psycho Boost': { bp: 110, type: 'Psychic', self: { boosts: { spa: -2 } } },
@@ -364,15 +364,15 @@ var ADV_PATCH = {
     'Dragon Dance': { bp: 0, category: 'Status', type: 'Dragon' },
     Eruption: { bp: 90, type: 'Fire', target: 'allAdjacentFoes' },
     'Feather Dance': { bp: 0, category: 'Status', type: 'Flying' },
-    'Frenzy Plant': { bp: 60, type: 'Grass' },
-    'Hydro Cannon': { bp: 120, type: 'Water' },
+    'Frenzy Plant': { bp: 55, type: 'Grass' },
+    'Hydro Cannon': { bp: 110, type: 'Water' },
     'Iron Defense': { bp: 0, category: 'Status', type: 'Steel' },
     'Magical Leaf': { bp: 75, type: 'Grass' },
     'Mud Shot': { bp: 60, type: 'Ground' },
     'Poison Tail': { bp: 95, type: 'Poison', makesContact: true },
     'Shadow Punch': { bp: 75, type: 'Ghost', makesContact: true },
     'Shock Wave': { bp: 75, type: 'Electric' },
-    Superpower: { bp: 120, type: 'Fighting', self: { boosts: { atk: -1, def: -1 } }, makesContact: true },
+    Superpower: { bp: 110, type: 'Fighting', self: { boosts: { atk: -1, def: -1 } }, makesContact: true },
     'Water Spout': { bp: 90, type: 'Water', target: 'allAdjacentFoes' },
     Yawn: { bp: 0, category: 'Status', type: 'Normal' }
 };
@@ -554,6 +554,36 @@ var DPP_PATCH = {
         makesContact: true,
         category: 'Physical'
     },
+    'Exorcism': {
+        bp: 85,
+        type: 'Ghost',
+        category: 'Physical'
+    },
+    'Titan Jaw': {
+        bp: 85,
+        type: 'Steel',
+        category: 'Physical'
+    },
+    'Noxious Blast': {
+        bp: 75,
+        type: 'Poison',
+        category: 'Special'
+    },
+    'Rust Storm': {
+        bp: 90,
+        type: 'Steel',
+        category: 'Special'
+    },
+    'Short Circuit': {
+        bp: 95,
+        type: 'Electric',
+        category: 'Physical'
+    },
+    'Wave Crash': {
+        bp: 120,
+        type: 'Water',
+        category: 'Physical'
+    },
     'Bug Bite': {
         bp: 55,
         type: 'Bug',
@@ -574,8 +604,8 @@ var DPP_PATCH = {
         makesContact: true,
         type: 'Dragon'
     },
-    'Electric Touch': {
-        bp: 65,
+    'Plasma Touch': {
+        bp: 50,
         category: 'Physical',
         type: 'Electric',
         makesContact: true
@@ -606,7 +636,7 @@ var DPP_PATCH = {
         category: 'Special'
     },
     'Head Smash': {
-        bp: 110,
+        bp: 100,
         type: 'Rock',
         recoil: [1, 4],
         makesContact: true,
@@ -653,7 +683,7 @@ var DPP_PATCH = {
         type: 'Steel'
     },
     'Skitter Smack': {
-        bp: 65,
+        bp: 50,
         type: 'Bug',
         category: 'Physical',
         makesContact: true,
@@ -667,6 +697,8 @@ var DPP_PATCH = {
     'Spike Barrage': { bp: 40, type: 'Steel', category: 'Special', multihit: 2 },
     'Stealth Rock': { bp: 0, type: 'Rock' },
     'Stone Barrage': { bp: 40, type: 'Rock', category: 'Special', multihit: 2 },
+    'Rusty Swipes': { bp: 40, type: 'Steel', category: 'Physical', multihit: 2 },
+    'Acid Darts': { bp: 45, type: 'Poison', category: 'Special', multihit: 2 },
     'Stone Drop': {
         bp: 55,
         category: 'Special',
@@ -704,7 +736,7 @@ var DPP_PATCH = {
     'Air Slash': { bp: 75, type: 'Flying', category: 'Special' },
     'Aura Sphere': { bp: 80, type: 'Fighting', category: 'Special' },
     'Bug Buzz': { bp: 110, type: 'Bug', isSound: true, category: 'Special' },
-    'Draco Meteor': { bp: 135, type: 'Dragon', self: { boosts: { spa: -2 } }, category: 'Special' },
+    'Draco Meteor': { bp: 120, type: 'Dragon', self: { boosts: { spa: -2 } }, category: 'Special' },
     'Dragon Pulse': { bp: 80, type: 'Dragon', category: 'Special' },
     'Dragon Rush': {
         bp: 130,
@@ -713,7 +745,7 @@ var DPP_PATCH = {
         category: 'Physical'
     },
     'Drill Run': {
-        bp: 95,
+        bp: 90,
         type: 'Ground',
         makesContact: true,
         category: 'Physical'
@@ -729,6 +761,7 @@ var DPP_PATCH = {
     'Power Gem': { bp: 80, type: 'Rock', category: 'Special' },
     'Psycho Shift': { bp: 0, type: 'Psychic' },
     'Dark Void': { bp: 0, type: 'Dark', target: 'allAdjacentFoes' },
+    'Narcotic Spore': { bp: 0, type: 'Bug'},
     'Grass Knot': {
         bp: 60,
         type: 'Grass',
@@ -769,7 +802,7 @@ var DPP_PATCH = {
     },
     'Assault Order': { bp: 85, type: 'Bug', category: 'Special' },
     'Blazing Bash': {
-        bp: 65,
+        bp: 50,
         type: 'Fire',
         makesContact: true,
         category: 'Physical'
@@ -789,13 +822,13 @@ var DPP_PATCH = {
         type: 'Water'
     },
     'Close Combat': {
-        bp: 110,
+        bp: 100,
         type: 'Fighting',
         makesContact: true,
         category: 'Physical'
     },
     'Counter Strike': {
-        bp: 60,
+        bp: 55,
         type: 'Fighting',
         makesContact: true,
         category: 'Special'
@@ -814,7 +847,7 @@ var DPP_PATCH = {
         target: 'allAdjacent',
         category: 'Special'
     },
-    'Earth Power': { bp: 80, type: 'Ground', category: 'Special' },
+    'Tectonic Shift': { bp: 80, type: 'Ground', category: 'Special' },
     'Flash Cannon': { bp: 70, type: 'Steel', category: 'Special' },
     'Focus Blast': { bp: 100, type: 'Fighting', category: 'Special' },
     'Force Push': {
@@ -824,12 +857,22 @@ var DPP_PATCH = {
         category: 'Special'
     },
     'Foul Water': {
-        bp: 80,
+        bp: 75,
         category: 'Special',
         type: 'Water'
     },
+    'Boulder Fling': {
+        bp: 75,
+        category: 'Special',
+        type: 'Rock'
+    },
+    'Pollen Puff': {
+        bp: 80,
+        category: 'Special',
+        type: 'Bug'
+    },
     'Freeze Strike': {
-        bp: 90,
+        bp: 80,
         type: 'Ice',
         makesContact: true,
         category: 'Physical'
@@ -841,7 +884,7 @@ var DPP_PATCH = {
         category: 'Physical'
     },
     'Hammer Arm': {
-        bp: 100,
+        bp: 90,
         type: 'Fighting',
         makesContact: true,
         isPunch: true,
@@ -908,15 +951,17 @@ var DPP_PATCH = {
         makesContact: true,
         category: 'Physical'
     },
-    'Poison Touch': {
-        bp: 65,
+    'Venom Touch': {
+        bp: 50,
         type: 'Poison',
         makesContact: true,
         category: 'Physical'
     },
     Poltergeist: {
-        bp: 110,
+        bp: 100,
         type: 'Ghost',
+        recoil: [1, 4],
+        makesContact: true,
         category: 'Physical'
     },
     'Power Whip': {
@@ -935,14 +980,14 @@ var DPP_PATCH = {
     },
     'Psycho Cut': { bp: 80, type: 'Psychic', category: 'Physical' },
     'Razor Shell': {
-        bp: 90,
+        bp: 95,
         type: 'Water',
         makesContact: true,
         category: 'Physical',
         secondaries: true
     },
     'Rock Polish': { bp: 0, type: 'Rock' },
-    'Rock Wrecker': { bp: 100, type: 'Rock', category: 'Physical' },
+    'Rock Wrecker': { bp: 90, type: 'Rock', category: 'Physical' },
     Scald: {
         bp: 70,
         type: 'Water',
@@ -952,7 +997,7 @@ var DPP_PATCH = {
     Scam: { bp: 50, type: 'Dark', category: 'Special' },
     'Seed Bomb': { bp: 75, type: 'Grass', category: 'Physical' },
     'Shadow Claw': {
-        bp: 70,
+        bp: 75,
         type: 'Ghost',
         makesContact: true,
         category: 'Physical'
@@ -972,12 +1017,12 @@ var DPP_PATCH = {
         priority: 1
     },
     'Sleight Of Hand': {
-        bp: 70,
+        bp: 60,
         type: 'Psychic',
         category: 'Physical',
         makesContact: true
     },
-    'Stone Edge': { bp: 115, type: 'Rock', category: 'Physical' },
+    'Stone Edge': { bp: 110, type: 'Rock', category: 'Physical' },
     'Subzero Slam': {
         bp: 100,
         type: 'Ice',
@@ -1014,7 +1059,7 @@ var DPP_PATCH = {
         type: 'Water'
     },
     'Wet Touch': {
-        bp: 65,
+        bp: 50,
         type: 'Water',
         makesContact: true,
         category: 'Physical'
@@ -1053,9 +1098,49 @@ var DPP_PATCH = {
         type: 'Flying'
     },
         'Draconic Gale': {
-        bp: 100,
+        bp: 110,
         category: 'Special',
         type: 'Dragon'
+    },
+        'Icky Trap': {
+        bp: 55,
+        category: 'Special',
+        type: 'Bug'
+    },
+        'Uncover': {
+        bp: 55,
+        category: 'Special',
+        type: 'Normal'
+    },
+        'Pensive Tackle': {
+        bp: 55,
+        category: 'Physical',
+        type: 'Psychic'
+    },
+        'Accelegem': {
+        bp: 60,
+        category: 'Special',
+        type: 'Rock'
+    },
+        'Berserk': {
+        bp: 70,
+        category: 'Physical',
+        type: 'Dragon'
+    },
+        'Terrifier': {
+        bp: 70,
+        category: 'Special',
+        type: 'Dark'
+    },
+        'Chakra Push': {
+        bp: 65,
+        category: 'Physical',
+        type: 'Psychic'
+    },
+        'Arcane Gambit': {
+        bp: 65,
+        category: 'Special',
+        type: 'Fighting'
     },
         'Draconic Slam': {
         bp: 95,
@@ -1067,8 +1152,13 @@ var DPP_PATCH = {
         category: 'Status',
         type: 'Ground'
     },
-        'Flame Wheel': {
-        bp: 60,
+        'Flame Charge': {
+        bp: 50,
+        category: 'Physical',
+        type: 'Fire'
+    },
+        'Searing Blow': {
+        bp: 70,
         category: 'Physical',
         type: 'Fire'
     },
@@ -1083,7 +1173,7 @@ var DPP_PATCH = {
         type: 'Psychic'
     },
         'Horror Scream': {
-        bp: 105,
+        bp: 95,
         category: 'Special',
         type: 'Ghost'
     },
@@ -1095,6 +1185,13 @@ var DPP_PATCH = {
     'Reckless Peck': {
         bp: 75,
         type: 'Flying',
+        recoil: [1, 4],
+        makesContact: true,
+        category: 'Physical'
+    },
+    'Rage': {
+        bp: 75,
+        type: 'Dragon',
         recoil: [1, 4],
         makesContact: true,
         category: 'Physical'
@@ -1155,7 +1252,7 @@ var BW_PATCH = {
     'Double-Edge': { recoil: [25, 100] },
     Protect: { priority: 4 },
     'Fire Blast': { secondaries: true },
-    'Fire Spin': { bp: 35 },
+    'Fire Spin': { bp: 60 },
     Flamethrower: { secondaries: true },
     'Fury Cutter': { bp: 20 },
     'Future Sight': { bp: 100, type: 'Psychic' },
@@ -1681,7 +1778,7 @@ var XY_PATCH = {
     'Hydro Pump': { bp: 110 },
     'Ice Beam': { bp: 90 },
     Incinerate: { bp: 60 },
-    'Leaf Storm': { bp: 130 },
+    'Leaf Storm': { bp: 135 },
     Lick: { bp: 30 },
     'Low Sweep': { bp: 65 },
     'Meteor Mash': { bp: 90 },
@@ -1701,10 +1798,10 @@ var XY_PATCH = {
     Snore: { bp: 50 },
     'Storm Throw': { bp: 60 },
     'Struggle Bug': { bp: 50 },
-    Surf: { bp: 75 },
+    Surf: { bp: 80 },
     'Sweet Kiss': { type: 'Fairy' },
     Thunderbolt: { bp: 80 },
-    'Vine Whip': { bp: 45 },
+    'Vine Whip': { bp: 50 },
     'Water Pledge': { bp: 80 },
     'Water Pulse': { isPulse: true },
     'Weather Ball': { isBullet: true },
