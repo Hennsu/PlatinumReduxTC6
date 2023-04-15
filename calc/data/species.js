@@ -1008,7 +1008,7 @@ var GSC_PATCH = {
     },
     Bellossom: {
         types: ['Grass', 'Fire'],
-        bs: { hp: 75, at: 60, df: 85, sa: 90, sd: 105, sp: 85 },
+        bs: { hp: 75, at: 60, df: 85, sa: 97, sd: 105, sp: 85 },
         weightkg: 5.8
     },
     Blissey: {
@@ -1183,7 +1183,7 @@ var GSC_PATCH = {
     },
     Magcargo: {
         types: ['Fire', 'Rock'],
-        bs: { hp: 95, at: 70, df: 100, sa: 100, sd: 120, sp: 50 },
+        bs: { hp: 95, at: 60, df: 100, sa: 95, sd: 120, sp: 50 },
         weightkg: 55
     },
     Mareep: {
@@ -1253,7 +1253,7 @@ var GSC_PATCH = {
     },
     Politoed: {
         types: ['Water', 'Psychic'],
-        bs: { hp: 90, at: 60, df: 80, sa: 90, sd: 105, sp: 75 },
+        bs: { hp: 90, at: 60, df: 80, sa: 96, sd: 105, sp: 75 },
         weightkg: 33.9
     },
     Porygon2: {
@@ -1452,7 +1452,7 @@ var ADV_PATCH = {
     Bulbasaur: { abilities: { 0: 'Thick Fat' } },
     Butterfree: { abilities: { 0: 'Compound Eyes' } },
     Caterpie: { abilities: { 0: 'Shed Skin' } },
-    Chansey: { abilities: { 0: 'Insomnia' } },
+    Chansey: { abilities: { 0: 'Unaware' } },
     Charizard: { abilities: { 0: 'No Guard' } },
     Charmander: { abilities: { 0: 'No Guard' } },
     Charmeleon: { abilities: { 0: 'No Guard' } },
@@ -1497,7 +1497,7 @@ var ADV_PATCH = {
     Jigglypuff: { abilities: { 0: 'Download' } },
     Jolteon: { abilities: { 0: 'Tinted Lens' } },
     Jynx: { abilities: { 0: 'Thick Fat' } },
-    Kabuto: { abilities: { 0: 'Water Veil' } },
+    Kabuto: { abilities: { 0: 'Rock Head' } },
     Kabutops: { abilities: { 0: 'Rock Head' } },
     Kadabra: { abilities: { 0: 'Synchronize' } },
     Kakuna: { abilities: { 0: 'Shed Skin' } },
@@ -1516,7 +1516,7 @@ var ADV_PATCH = {
     Magneton: { abilities: { 0: 'Levitate' } },
     Mankey: { abilities: { 0: 'Insomnia' } },
     Marowak: { abilities: { 0: 'Rock Head' } },
-    Meowth: { abilities: { 0: 'Super Luck' } },
+    Meowth: { abilities: { 0: 'Technician' } },
     Metapod: { abilities: { 0: 'Shed Skin' } },
     Mew: { abilities: { 0: 'Trace' } },
     Mewtwo: { abilities: { 0: 'Insomnia' } },
@@ -1533,10 +1533,10 @@ var ADV_PATCH = {
     Oddish: { abilities: { 0: 'Effect Spore' } },
     Omanyte: { abilities: { 0: 'Swift Swim' } },
     Omastar: { abilities: { 0: 'Swift Swim' } },
-    Onix: { abilities: { 0: 'Rock Head' } },
+    Onix: { abilities: { 0: 'Intimidate' } },
     Paras: { abilities: { 0: 'Drizzle' } },
     Parasect: { abilities: { 0: 'Drizzle' } },
-    Persian: { abilities: { 0: 'Super Luck' } },
+    Persian: { abilities: { 0: 'Technician' } },
     Pidgeot: { abilities: { 0: 'Technician' } },
     Pidgeotto: { abilities: { 0: 'Technician' } },
     Pidgey: { abilities: { 0: 'Technician' } },
@@ -1550,7 +1550,7 @@ var ADV_PATCH = {
     Primeape: { abilities: { 0: 'Insomnia' } },
     Psyduck: { abilities: { 0: 'Bad Dreams' } },
     Raichu: { abilities: { 0: 'Levitate' } },
-    Rapidash: { abilities: { 0: 'Solar Rush' } },
+    Rapidash: { abilities: { 0: 'Chlorophyll' } },
     Raticate: { abilities: { 0: 'Hustle' } },
     Rattata: { abilities: { 0: 'Hustle' } },
     Rhydon: { abilities: { 0: 'Rough Skin' } },
@@ -1898,7 +1898,7 @@ var ADV_PATCH = {
         bs: { hp: 70, at: 40, df: 50, sa: 70, sd: 80, sp: 80 },
         weightkg: 7.4,
         nfe: true,
-        abilities: { 0: 'Marvel Scale' }
+        abilities: { 0: 'Swift Swim' }
     },
     Flygon: {
         types: ['Bug', 'Dragon'],
@@ -2015,7 +2015,7 @@ var ADV_PATCH = {
     },
     Ludicolo: {
         types: ['Water', 'Grass'],
-        bs: { hp: 90, at: 65, df: 75, sa: 95, sd: 95, sp: 80 },
+        bs: { hp: 93, at: 65, df: 75, sa: 95, sd: 95, sp: 83 },
         weightkg: 55,
         abilities: { 0: 'Drizzle' }
     },
@@ -2077,7 +2077,7 @@ var ADV_PATCH = {
         types: ['Water', 'Dragon'],
         bs: { hp: 80, at: 60, df: 80, sa: 115, sd: 140, sp: 81 },
         weightkg: 162,
-        abilities: { 0: 'Limber' }
+        abilities: { 0: 'Swift Swim' }
     },
     Mudkip: {
         types: ['Water'],
@@ -2108,7 +2108,7 @@ var ADV_PATCH = {
     },
     Pelipper: {
         types: ['Water', 'Flying'],
-        bs: { hp: 118, at: 67, df: 95, sa: 90, sd: 81, sp: 77 },
+        bs: { hp: 118, at: 64, df: 95, sa: 86, sd: 81, sp: 72 },
         weightkg: 28,
         abilities: { 0: 'Drizzle' }
     },
@@ -2318,7 +2318,7 @@ var ADV_PATCH = {
     },
     Torkoal: {
         types: ['Fire', 'Ground'],
-        bs: { hp: 95, at: 65, df: 120, sa: 85, sd: 85, sp: 50 },
+        bs: { hp: 95, at: 65, df: 125, sa: 88, sd: 85, sp: 50 },
         weightkg: 80.4,
         abilities: { 0: 'Drought' }
     },
@@ -3259,7 +3259,7 @@ var DPP_PATCH = {
         gender: 'N'
     },
     KommoO: {
-        types: ['Dragon', 'Dragon'],
+        types: ['Dragon', 'Fighting'],
         bs: { hp: 79, at: 118, df: 125, sa: 66, sd: 99, sp: 84 },
         weightkg: 345,
         abilities: { 0: 'Iron Fist' },
@@ -3332,7 +3332,7 @@ var DPP_PATCH = {
         types: ['Bug', 'Fire'],
         bs: { hp: 76, at: 93, df: 60, sa: 82, sd: 85, sp: 79 },
         weightkg: 345,
-        abilities: { 0: 'Sunny Heal' },
+        abilities: { 0: 'Leaf Guard' },
         gender: 'N'
     },
     Infernopod: {
@@ -3519,7 +3519,7 @@ var DPP_PATCH = {
     },
     Zekrom: {
         types: ['Electric', 'Dragon'],
-        bs: { hp: 95, at: 150, df: 90, sa: 100, sd: 80, sp: 85 },
+        bs: { hp: 100, at: 150, df: 90, sa: 100, sd: 80, sp: 80 },
         weightkg: 345,
         abilities: { 0: 'Mold Breaker' },
         gender: 'N'

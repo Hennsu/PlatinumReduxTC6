@@ -183,7 +183,7 @@ var GSC_PATCH = {
     'Seismic Toss': { bp: 0 },
     'Super Fang': { bp: 0 },
     'Wing Attack': { bp: 70 },
-    Aeroblast: { bp: 80, type: 'Flying' },
+    Aeroblast: { bp: 85, type: 'Flying' },
     'Cross Chop': { bp: 110, type: 'Fighting' },
     'Dream Eater': { type: 'Dark' },
     Endure: { bp: 0, category: 'Status', type: 'Normal', priority: 2 },
@@ -352,7 +352,7 @@ var ADV_PATCH = {
     'Luster Purge': { bp: 75, type: 'Psychic' },
     'Psycho Boost': { bp: 110, type: 'Psychic', self: { boosts: { spa: -2 } } },
     'Signal Beam': { bp: 60, type: 'Bug' },
-    'Silver Wind': { bp: 70, type: 'Bug' },
+    'Silver Wind': { bp: 75, type: 'Bug' },
     'Aerial Ace': { bp: 50, type: 'Flying', makesContact: true },
     'Blast Burn': { bp: 100, type: 'Fire', recoil: [1, 4] },
     'Blaze Kick': { bp: 90, type: 'Fire', makesContact: true },
@@ -772,7 +772,7 @@ var DPP_PATCH = {
     'Magnet Bomb': { bp: 80, type: 'Steel', category: 'Physical' },
     'Mirror Shot': { bp: 75, type: 'Steel', category: 'Special' },
     'Mud Bomb': { bp: 70, type: 'Ground', category: 'Special' },
-    'Ominous Wind': { bp: 60, type: 'Ghost', category: 'Special' },
+    'Ominous Wind': { bp: 75, type: 'Ghost', category: 'Special' },
     Punishment: {
         bp: 120,
         type: 'Dark',
@@ -1062,6 +1062,7 @@ var DPP_PATCH = {
     },
     'H2O Absorption': {
         bp: 60,
+        drain: [1, 2],
         category: 'Special',
         type: 'Water'
     },
@@ -1175,6 +1176,36 @@ var DPP_PATCH = {
         category: 'Special',
         type: 'Normal'
     },
+        'Silk Spin': {
+        bp: 60,
+        category: 'Physical',
+        type: 'Bug'
+    },
+        'Pyro Twist': {
+        bp: 85,
+        category: 'Physical',
+        type: 'Fire'
+    },
+        'Haunting': {
+        bp: 70,
+        category: 'Special',
+        type: 'Ghost'
+    },
+        'Glacial Twist': {
+        bp: 85,
+        category: 'Physical',
+        type: 'Ice'
+    },
+        'Tracing Missile': {
+        bp: 70,
+        category: 'Special',
+        type: 'Steel'
+    },
+        'Current Pursuit': {
+        bp: 70,
+        category: 'Physical',
+        type: 'Water'
+    },
         'Galactic Edge': {
         bp: 75,
         category: 'Physical',
@@ -1231,6 +1262,7 @@ var DPP_PATCH = {
     },
         'Scrap Steal': {
         bp: 60,
+        drain: [1, 2],
         category: 'Physical',
         type: 'Steel'
     },
