@@ -444,14 +444,8 @@ function getEVDescriptionText(gen, pokemon, stat, natureName) {
 }
 exports.getEVDescriptionText = getEVDescriptionText;
 function handleFixedDamageMoves(attacker, move) {
-    if (move.named('Seismic Toss', 'Night Shade')) {
+    if (move.named('Seismic Toss', 'Night Shade', 'Sonic Boom')) {
         return attacker.level;
-    }
-    else if (move.named('Dragon Rage')) {
-        return 40;
-    }
-    else if (move.named('Sonic Boom')) {
-        return 20;
     }
     return 0;
 }
