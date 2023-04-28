@@ -75,7 +75,7 @@ var RBY = {
     },
     Beedrill: {
         types: ['Bug', 'Poison'],
-        bs: { hp: 80, at: 110, df: 85, sp: 91, sl: 55 },
+        bs: { hp: 80, at: 110, df: 85, sp: 94, sl: 55 },
         weightkg: 29.5
     },
     Bellsprout: {
@@ -225,7 +225,7 @@ var RBY = {
     },
     Exeggutor: {
         types: ['Grass', 'Psychic'],
-        bs: { hp: 100, at: 65, df: 105, sp: 56, sl: 140 },
+        bs: { hp: 100, at: 60, df: 105, sp: 56, sl: 140 },
         weightkg: 120
     },
     'Sirfetch\u2019d': {
@@ -547,7 +547,7 @@ var RBY = {
         nfe: true
     },
     Omastar: {
-        types: ['Rock', 'Water'],
+        types: ['Ghost', 'Water'],
         bs: { hp: 89, at: 67, df: 126, sp: 73, sl: 120 },
         weightkg: 35
     },
@@ -844,7 +844,7 @@ var GSC_PATCH = {
     Arbok: { bs: { sa: 68, sd: 88 } },
     Arcanine: { bs: { sa: 100, sd: 90 } },
     Articuno: { bs: { sa: 105, sd: 125 }, gender: 'N' },
-    Beedrill: { bs: { sa: 63, sd: 95 } },
+    Beedrill: { bs: { sa: 60, sd: 95 } },
     Bellsprout: { bs: { sa: 70, sd: 30 } },
     Blastoise: { bs: { sa: 120, sd: 78 } },
     Bulbasaur: { bs: { sa: 80, sd: 75 } },
@@ -992,7 +992,7 @@ var GSC_PATCH = {
     },
     Ariados: {
         types: ['Bug', 'Ghost'],
-        bs: { hp: 77, at: 117, df: 83, sa: 90, sd: 98, sp: 83 },
+        bs: { hp: 77, at: 117, df: 83, sa: 90, sd: 98, sp: 93 },
         weightkg: 33.5
     },
     Azumarill: {
@@ -1413,7 +1413,7 @@ var GSC_PATCH = {
     },
     Umbreon: {
         types: ['Dark', 'Dragon'],
-        bs: { hp: 80, at: 75, df: 110, sa: 80, sd: 125, sp: 70 },
+        bs: { hp: 80, at: 70, df: 110, sa: 85, sd: 125, sp: 70 },
         weightkg: 27
     },
     Ursaring: {
@@ -1447,10 +1447,10 @@ var ADV_PATCH = {
     Arcanine: { abilities: { 0: 'Flame Body' } },
     Articuno: { abilities: { 0: 'Magic Guard' } },
     Beedrill: { abilities: { 0: 'Speed Boost' } },
-    Bellsprout: { abilities: { 0: 'Chlorophyll' } },
+    Bellsprout: { abilities: { 0: 'Solar Rush' } },
     Blastoise: { abilities: { 0: 'Water Absorb' } },
     Bulbasaur: { abilities: { 0: 'Thick Fat' } },
-    Butterfree: { abilities: { 0: 'Compound Eyes' } },
+    Butterfree: { abilities: { 0: 'Precision' } },
     Caterpie: { abilities: { 0: 'Shed Skin' } },
     Chansey: { abilities: { 0: 'Unaware' } },
     Charizard: { abilities: { 0: 'No Guard' } },
@@ -1466,7 +1466,7 @@ var ADV_PATCH = {
     Dragonair: { abilities: { 0: 'Forewarn' } },
     Dragonite: { abilities: { 0: 'Levitate' } },
     Dratini: { abilities: { 0: 'Forewarn' } },
-    Drowzee: { abilities: { 0: 'Download' } },
+    Drowzee: { abilities: { 0: 'Analyst' } },
     Dugtrio: { abilities: { 0: 'Sand Veil' } },
     Eevee: { abilities: { 0: 'Adaptability' } },
     Ekans: { abilities: { 0: 'Intimidate' } },
@@ -1492,9 +1492,9 @@ var ADV_PATCH = {
     Hitmonchan: { abilities: { 0: 'Iron Fist' } },
     Hitmonlee: { abilities: { 0: 'Reckless' } },
     Horsea: { abilities: { 0: 'Super Luck' } },
-    Hypno: { abilities: { 0: 'Download' } },
+    Hypno: { abilities: { 0: 'Analyst' } },
     Ivysaur: { abilities: { 0: 'Thick Fat' } },
-    Jigglypuff: { abilities: { 0: 'Download' } },
+    Jigglypuff: { abilities: { 0: 'Analyst' } },
     Jolteon: { abilities: { 0: 'Tinted Lens' } },
     Jynx: { abilities: { 0: 'Thick Fat' } },
     Kabuto: { abilities: { 0: 'Rock Head' } },
@@ -1550,7 +1550,7 @@ var ADV_PATCH = {
     Primeape: { abilities: { 0: 'Insomnia' } },
     Psyduck: { abilities: { 0: 'Bad Dreams' } },
     Raichu: { abilities: { 0: 'Levitate' } },
-    Rapidash: { abilities: { 0: 'Chlorophyll' } },
+    Rapidash: { abilities: { 0: 'Solar Rush' } },
     Raticate: { abilities: { 0: 'Hustle' } },
     Rattata: { abilities: { 0: 'Hustle' } },
     Rhydon: { abilities: { 0: 'Rough Skin' } },
@@ -1565,30 +1565,30 @@ var ADV_PATCH = {
     Snorlax: { abilities: { 0: 'Thick Fat' } },
     Spearow: { abilities: { 0: 'Super Luck' } },
     Squirtle: { abilities: { 0: 'Water Absorb' } },
-    Starmie: { abilities: { 0: 'Download' } },
-    Staryu: { abilities: { 0: 'Download' } },
-    Tangela: { abilities: { 0: 'Leaf Guard' } },
+    Starmie: { abilities: { 0: 'Analyst' } },
+    Staryu: { abilities: { 0: 'Analyst' } },
+    Tangela: { abilities: { 0: 'Sunny Heal' } },
     Tauros: { abilities: { 0: 'Unburden' } },
     Tentacool: { abilities: { 0: 'Liquid Ooze' } },
     Tentacruel: { abilities: { 0: 'Liquid Ooze' } },
     Vaporeon: { abilities: { 0: 'Water Absorb' } },
-    Venomoth: { abilities: { 0: 'Compound Eyes' } },
+    Venomoth: { abilities: { 0: 'Precision' } },
     Venonat: { abilities: { 0: 'Shield Dust' } },
     Venusaur: { abilities: { 0: 'Thick Fat' } },
-    Victreebel: { abilities: { 0: 'Chlorophyll' } },
+    Victreebel: { abilities: { 0: 'Solar Rush' } },
     Vileplume: { abilities: { 0: 'Effect Spore' } },
     Voltorb: { abilities: { 0: 'Technician' } },
     Vulpix: { abilities: { 0: 'Flash Fire' } },
     Wartortle: { abilities: { 0: 'Water Absorb' } },
     Weedle: { abilities: { 0: 'Shed Skin' } },
-    Weepinbell: { abilities: { 0: 'Chlorophyll' } },
+    Weepinbell: { abilities: { 0: 'Solar Rush' } },
     Weezing: { abilities: { 0: 'Levitate' } },
-    Wigglytuff: { abilities: { 0: 'Download' } },
+    Wigglytuff: { abilities: { 0: 'Analyst' } },
     Zapdos: { abilities: { 0: 'Volt Absorb' } },
     Zubat: { abilities: { 0: 'Speed Boost' } },
     Aipom: { abilities: { 0: 'Run Away' } },
     Ampharos: { abilities: { 0: 'Static' } },
-    Ariados: { abilities: { 0: 'Compound Eyes' } },
+    Ariados: { abilities: { 0: 'Precision' } },
     Azumarill: { abilities: { 0: 'Clear Body' } },
     Bayleef: { abilities: { 0: 'Thick Fat' } },
     Bellossom: { abilities: { 0: 'Drought' } },
@@ -1617,7 +1617,7 @@ var ADV_PATCH = {
     Hoppip: { abilities: { 0: 'Serene Grace' } },
     Houndoom: { abilities: { 0: 'Intimidate' } },
     Houndour: { abilities: { 0: 'Intimidate' } },
-    Jumpluff: { abilities: { 0: 'Chlorophyll' } },
+    Jumpluff: { abilities: { 0: 'Solar Rush' } },
     Kingdra: { abilities: { 0: 'Super Luck' } },
     Lanturn: { abilities: { 0: 'Volt Absorb' } },
     Larvitar: { abilities: { 0: 'Solid Rock' } },
@@ -1629,11 +1629,11 @@ var ADV_PATCH = {
     Marill: { abilities: { 0: 'Clear Body' } },
     Meganium: { abilities: { 0: 'Thick Fat' } },
     Miltank: { abilities: { 0: 'Thick Fat' } },
-    Misdreavus: { abilities: { 0: 'Download' } },
-    Murkrow: { abilities: { 0: 'Download' } },
+    Misdreavus: { abilities: { 0: 'Analyst' } },
+    Murkrow: { abilities: { 0: 'Analyst' } },
     Natu: { abilities: { 0: 'Magic Guard' } },
     Noctowl: { abilities: { 0: 'Bad Dreams' } },
-    Octillery: { abilities: { 0: 'Compound Eyes' } },
+    Octillery: { abilities: { 0: 'Precision' } },
     Phanpy: { abilities: { 0: 'Reckless' } },
     Piloswine: { abilities: { 0: 'Ice Body' } },
     Pineco: { abilities: { 0: 'Effect Spore' } },
@@ -1641,9 +1641,9 @@ var ADV_PATCH = {
     Porygon2: { abilities: { 0: 'Adaptability' } },
     Pupitar: { abilities: { 0: 'Solid Rock' } },
     Quagsire: { abilities: { 0: 'Water Absorb' } },
-    Quilava: { abilities: { 0: 'Solar Power' } },
+    Quilava: { abilities: { 0: 'Solar Rush' } },
     Raikou: { abilities: { 0: 'Static' } },
-    Remoraid: { abilities: { 0: 'Compound Eyes' } },
+    Remoraid: { abilities: { 0: 'Precision' } },
     Scizor: { abilities: { 0: 'Technician' } },
     Sentret: { abilities: { 0: 'Limber' } },
     Shuckle: { abilities: { 0: 'Solid Rock' } },
@@ -1652,19 +1652,19 @@ var ADV_PATCH = {
     Slowking: { abilities: { 0: 'Effect Spore' } },
     Slugma: { abilities: { 0: 'Flame Body' } },
     Sneasel: { abilities: { 0: 'Super Luck' } },
-    Spinarak: { abilities: { 0: 'Shield Dust' } },
+    Spinarak: { abilities: { 0: 'Precision' } },
     Stantler: { abilities: { 0: 'Intimidate' } },
     Steelix: { abilities: { 0: 'Intimidate' } },
     Sudowoodo: { abilities: { 0: 'Rock Head' } },
     Suicune: { abilities: { 0: 'Magic Guard' } },
-    Sunflora: { abilities: { 0: 'Chlorophyll' } },
-    Sunkern: { abilities: { 0: 'Chlorophyll' } },
+    Sunflora: { abilities: { 0: 'Solar Rush' } },
+    Sunkern: { abilities: { 0: 'Solar Rush' } },
     Swinub: { abilities: { 0: 'Ice Body' } },
     Teddiursa: { abilities: { 0: 'Hustle' } },
     Togepi: { abilities: { 0: 'Serene Grace' } },
     Togetic: { abilities: { 0: 'Serene Grace' } },
     Totodile: { abilities: { 0: 'Intimidate' } },
-    Typhlosion: { abilities: { 0: 'Chlorophyll' } },
+    Typhlosion: { abilities: { 0: 'Solar Rush' } },
     Tyranitar: { abilities: { 0: 'Solid Rock' } },
     Umbreon: { abilities: { 0: 'Synchronize' } },
     Ursaring: { abilities: { 0: 'Hustle' } },
@@ -1735,13 +1735,13 @@ var ADV_PATCH = {
         bs: { hp: 89, at: 61, df: 80, sa: 80, sd: 65, sp: 50 },
         weightkg: 1.9,
         nfe: true,
-        abilities: { 0: 'Forewarm' }
+        abilities: { 0: 'Wisdom' }
     },
     Beautifly: {
         types: ['Bug', 'Ice'],
         bs: { hp: 85, at: 60, df: 92, sa: 113, sd: 122, sp: 93 },
         weightkg: 28.4,
-        abilities: { 0: 'Compound Eyes' }
+        abilities: { 0: 'Precision' }
     },
     Beldum: {
         types: ['Steel', 'Psychic'],
@@ -1904,7 +1904,7 @@ var ADV_PATCH = {
         types: ['Bug', 'Dragon'],
         bs: { hp: 83, at: 75, df: 82, sa: 115, sd: 88, sp: 105 },
         weightkg: 82,
-        abilities: { 0: 'Compound Eyes' }
+        abilities: { 0: 'Precision' }
     },
     Gardevoir: {
         types: ['Psychic', 'Ghost'],
@@ -1922,7 +1922,7 @@ var ADV_PATCH = {
         types: ['Ground', 'Fire'],
         bs: { hp: 110, at: 130, df: 110, sa: 85, sd: 80, sp: 61 },
         weightkg: 950,
-        abilities: { 0: 'Chlorophyll' },
+        abilities: { 0: 'Solar Rush' },
         gender: 'N'
     },
     Grovyle: {
@@ -1930,7 +1930,7 @@ var ADV_PATCH = {
         bs: { hp: 60, at: 84, df: 63, sa: 67, sd: 81, sp: 95 },
         weightkg: 21.6,
         nfe: true,
-        abilities: { 0: 'Download' }
+        abilities: { 0: 'Analyst' }
     },
     Gulpin: {
         types: ['Poison'],
@@ -2049,14 +2049,14 @@ var ADV_PATCH = {
         types: ['Fighting', 'Dragon'],
         bs: { hp: 76, at: 101, df: 85, sa: 81, sd: 96, sp: 92 },
         weightkg: 31.5,
-        abilities: { 0: 'Download' }
+        abilities: { 0: 'Analyst' }
     },
     Meditite: {
         types: ['Fighting', 'Psychic'],
         bs: { hp: 66, at: 75, df: 71, sa: 60, sd: 81, sp: 72 },
         weightkg: 11.2,
         nfe: true,
-        abilities: { 0: 'Download' }
+        abilities: { 0: 'Analyst' }
     },
     Metagross: {
         types: ['Steel', 'Psychic'],
@@ -2157,7 +2157,7 @@ var ADV_PATCH = {
         types: ['Grass', 'Poison'],
         bs: { hp: 60, at: 50, df: 60, sa: 100, sd: 100, sp: 60 },
         weightkg: 2,
-        abilities: { 0: 'Leaf Guard' }
+        abilities: { 0: 'Sunny Heal' }
     },
     Sableye: {
         types: ['Dark', 'Ghost'],
@@ -2175,14 +2175,14 @@ var ADV_PATCH = {
         types: ['Grass', 'Dragon'],
         bs: { hp: 78, at: 103, df: 76, sa: 95, sd: 81, sp: 119 },
         weightkg: 52.2,
-        abilities: { 0: 'Download' }
+        abilities: { 0: 'Analyst' }
     },
     Sealeo: {
         types: ['Ice', 'Water'],
         bs: { hp: 100, at: 70, df: 80, sa: 85, sd: 80, sp: 45 },
         weightkg: 87.6,
         nfe: true,
-        abilities: { 0: 'Ice Body' }
+        abilities: { 0: 'Snow Warning' }
     },
     Seedot: {
         types: ['Grass'],
@@ -2352,7 +2352,7 @@ var ADV_PATCH = {
         types: ['Ground', 'Dragon'],
         bs: { hp: 75, at: 85, df: 75, sa: 90, sd: 70, sp: 70 },
         weightkg: 15.3,
-        abilities: { 0: 'Compound Eyes' },
+        abilities: { 0: 'Precision' },
         nfe: true
     },
     Vigoroth: {
@@ -2481,10 +2481,10 @@ var DPP_PATCH = {
         types: ['Dark', 'Steel'],
         bs: { hp: 76, at: 125, df: 110, sa: 60, sd: 83, sp: 86 },
         weightkg: 70,
-        abilities: { 0: 'Compound Eyes' }
+        abilities: { 0: 'Precision' }
     },
     Bronzong: {
-        types: ['Steel', 'Psychic'],
+        types: ['Steel', 'Poison'],
         bs: { hp: 91, at: 60, df: 120, sa: 92, sd: 101, sp: 61 },
         weightkg: 187,
         gender: 'N',
@@ -2707,7 +2707,7 @@ var DPP_PATCH = {
         bs: { hp: 95, at: 95, df: 85, sa: 60, sd: 75, sp: 40 },
         weightkg: 49.5,
         nfe: true,
-        abilities: { 0: 'Dry Skin' }
+        abilities: { 0: 'Sand Stream' }
     },
     Hippowdon: {
         types: ['Ground', 'Dark'],
@@ -2719,7 +2719,7 @@ var DPP_PATCH = {
         types: ['Dark', 'Flying'],
         bs: { hp: 93, at: 91, df: 89, sa: 106, sd: 79, sp: 88 },
         weightkg: 27.3,
-        abilities: { 0: 'Download' }
+        abilities: { 0: 'Analyst' }
     },
     Hydreigon: {
         types: ['Dark', 'Dragon'],
@@ -2827,7 +2827,7 @@ var DPP_PATCH = {
         types: ['Ghost', 'Dark'],
         bs: { hp: 74, at: 81, df: 75, sa: 101, sd: 96, sp: 101 },
         weightkg: 4.4,
-        abilities: { 0: 'Download' }
+        abilities: { 0: 'Analyst' }
     },
     Monferno: {
         types: ['Fire', 'Fighting'],
@@ -2848,7 +2848,7 @@ var DPP_PATCH = {
         bs: { hp: 55, at: 90, df: 85, sa: 45, sd: 70, sp: 81 },
         weightkg: 10.2,
         nfe: true,
-        abilities: { 0: 'Compound Eyes' }
+        abilities: { 0: 'Precision' }
     },
     Piplup: {
         types: ['Water'],
@@ -2900,7 +2900,7 @@ var DPP_PATCH = {
         types: ['Grass', 'Poison'],
         bs: { hp: 85, at: 70, df: 83, sa: 125, sd: 110, sp: 83 },
         weightkg: 14.5,
-        abilities: { 0: 'Leaf Guard' }
+        abilities: { 0: 'Sunny Heal' }
     },
     Rotom: {
         types: ['Electric', 'Ghost'],
@@ -3332,14 +3332,14 @@ var DPP_PATCH = {
         types: ['Bug', 'Fire'],
         bs: { hp: 76, at: 93, df: 60, sa: 82, sd: 85, sp: 79 },
         weightkg: 345,
-        abilities: { 0: 'Leaf Guard' },
+        abilities: { 0: 'Sunny Heal' },
         gender: 'N'
     },
     Infernopod: {
         types: ['Bug', 'Fire'],
         bs: { hp: 107, at: 110, df: 70, sa: 83, sd: 94, sp: 86 },
         weightkg: 345,
-        abilities: { 0: 'Chlorophyll' },
+        abilities: { 0: 'Solar Rush' },
         gender: 'N'
     },
     Grubbin: {
@@ -3358,7 +3358,7 @@ var DPP_PATCH = {
     },
     Vikavolt: {
         types: ['Bug', 'Electric'],
-        bs: { hp: 87, at: 125, df: 70, sa: 61, sd: 83, sp: 104 },
+        bs: { hp: 87, at: 125, df: 71, sa: 65, sd: 83, sp: 99 },
         weightkg: 345,
         abilities: { 0: 'Reckless' },
         gender: 'N'
@@ -3407,7 +3407,7 @@ var DPP_PATCH = {
     },
     Coalossal: {
         types: ['Rock', 'Fire'],
-        bs: { hp: 132, at: 75, df: 108, sa: 106, sd: 97, sp: 52 },
+        bs: { hp: 132, at: 70, df: 108, sa: 106, sd: 97, sp: 52 },
         weightkg: 345,
         abilities: { 0: 'Solid Rock' },
         gender: 'N'
