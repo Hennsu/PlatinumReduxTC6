@@ -140,7 +140,7 @@ function calculateADV(gen, attacker, defender, move, field) {
     }
     else if ((isPhysical && attacker.hasItem('Choice Band')) ||
         (!isPhysical && attacker.hasItem('Soul Dew') && attacker.named('Latios', 'Latias'))) {
-        at = Math.floor(at * 1.5);
+        at = Math.floor(at * 1.25);
         desc.attackerItem = attacker.item;
     }
     else if ((!isPhysical && attacker.hasItem('Deep Sea Tooth') && attacker.named('Clamperl')) ||

@@ -85,7 +85,7 @@ function calculateDPP(gen, attacker, defender, move, field) {
         desc.moveType = move.type;
         desc.moveBP = basePower;
     }
-    else if (move.named('Judgment') && attacker.item && attacker.item.includes('Plate')) {
+    else if (move.named('Judgment', 'Condemnation') && attacker.item && attacker.item.includes('Plate')) {
         move.type = (0, items_1.getItemBoostType)(attacker.item);
     }
     else if (move.named('Natural Gift') && attacker.item && attacker.item.includes('Berry')) {
@@ -294,7 +294,7 @@ function calculateDPP(gen, attacker, defender, move, field) {
     }
     if ((isPhysical ? attacker.hasItem('Choice Band') : attacker.hasItem('Choice Specs')) ||
         (!isPhysical && attacker.hasItem('Soul Dew') && attacker.named('Latios', 'Latias'))) {
-        attack = Math.floor(attack * 1.35);
+        attack = Math.floor(attack * 1.25);
         desc.attackerItem = attacker.item;
     }
     else if ((attacker.hasItem('Light Ball') && attacker.named('Pikachu')) ||
