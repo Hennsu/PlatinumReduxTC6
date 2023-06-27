@@ -180,7 +180,7 @@ var RBY = {
     },
     Dratini: {
         types: ['Dragon'],
-        bs: { hp: 55, at: 45, df: 55, sp: 55, sl: 60 },
+        bs: { hp: 60, at: 45, df: 55, sp: 55, sl: 60 },
         weightkg: 3.3,
         nfe: true
     },
@@ -283,7 +283,7 @@ var RBY = {
     },
     Graveler: {
         types: ['Rock', 'Ground'],
-        bs: { hp: 85, at: 90, df: 110, sp: 55, sl: 60 },
+        bs: { hp: 85, at: 85, df: 105, sp: 55, sl: 60 },
         weightkg: 105,
         nfe: true
     },
@@ -306,7 +306,7 @@ var RBY = {
     },
     Haunter: {
         types: ['Ghost', 'Poison'],
-        bs: { hp: 60, at: 55, df: 65, sp: 95, sl: 100 },
+        bs: { hp: 60, at: 55, df: 60, sp: 95, sl: 100 },
         weightkg: 0.1,
         nfe: true
     },
@@ -366,7 +366,7 @@ var RBY = {
     },
     Kadabra: {
         types: ['Psychic'],
-        bs: { hp: 55, at: 50, df: 60, sp: 95, sl: 110 },
+        bs: { hp: 55, at: 50, df: 60, sp: 90, sl: 110 },
         weightkg: 56.5,
         nfe: true
     },
@@ -415,7 +415,7 @@ var RBY = {
     },
     Machoke: {
         types: ['Fighting'],
-        bs: { hp: 80, at: 110, df: 70, sp: 60, sl: 50 },
+        bs: { hp: 80, at: 105, df: 70, sp: 60, sl: 50 },
         weightkg: 70.5,
         nfe: true
     },
@@ -651,7 +651,7 @@ var RBY = {
     },
     Raticate: {
         types: ['Normal'],
-        bs: { hp: 95, at: 97, df: 78, sp: 108, sl: 50 },
+        bs: { hp: 95, at: 94, df: 78, sp: 111, sl: 50 },
         weightkg: 18.5
     },
     Rattata: {
@@ -863,7 +863,7 @@ var GSC_PATCH = {
     Doduo: { bs: { sa: 50, sd: 70 } },
     Dragonair: { bs: { sa: 80, sd: 100 } },
     Dragonite: { bs: { sa: 95, sd: 108 } },
-    Dratini: { bs: { sa: 60, sd: 80 } },
+    Dratini: { bs: { sa: 70, sd: 80 } },
     Drowzee: { bs: { sa: 80, sd: 90 } },
     Dugtrio: { bs: { sa: 91, sd: 87 } },
     Eevee: { bs: { sa: 65, sd: 65 } },
@@ -1275,7 +1275,7 @@ var GSC_PATCH = {
     },
     Quagsire: {
         types: ['Water', 'Ground'],
-        bs: { hp: 109, at: 84, df: 91, sa: 79, sd: 106, sp: 60 },
+        bs: { hp: 109, at: 84, df: 91, sa: 79, sd: 106, sp: 55 },
         weightkg: 75
     },
     Quilava: {
@@ -1325,7 +1325,7 @@ var GSC_PATCH = {
     },
     Slowking: {
         types: ['Water', 'Bug'],
-        bs: { hp: 115, at: 95, df: 110, sa: 70, sd: 85, sp: 51 },
+        bs: { hp: 115, at: 100, df: 110, sa: 70, sd: 85, sp: 51 },
         weightkg: 79.5
     },
     Slugma: {
@@ -1717,7 +1717,7 @@ var ADV_PATCH = {
     },
     Bagon: {
         types: ['Dragon'],
-        bs: { hp: 55, at: 80, df: 70, sa: 50, sd: 40, sp: 55 },
+        bs: { hp: 55, at: 80, df: 70, sa: 65, sd: 40, sp: 55 },
         weightkg: 42.1,
         nfe: true,
         abilities: { 0: 'Mold Breaker' }
@@ -2046,7 +2046,7 @@ var ADV_PATCH = {
         abilities: { 0: 'Water Absorb' }
     },
     Mawile: {
-        types: ['Steel'],
+        types: ['Steel', 'Dark'],
         bs: { hp: 80, at: 145, df: 110, sa: 60, sd: 75, sp: 70 },
         weightkg: 11.5,
         abilities: { 0: 'Filter' }
@@ -2498,7 +2498,7 @@ var DPP_PATCH = {
     },
     Bronzor: {
         types: ['Steel', 'Psychic'],
-        bs: { hp: 57, at: 24, df: 86, sa: 24, sd: 86, sp: 23 },
+        bs: { hp: 75, at: 50, df: 93, sa: 75, sd: 80, sp: 32 },
         weightkg: 60.5,
         nfe: true,
         gender: 'N',
@@ -2650,7 +2650,7 @@ var DPP_PATCH = {
     },
     Gible: {
         types: ['Dragon', 'Ground'],
-        bs: { hp: 68, at: 80, df: 50, sa: 45, sd: 50, sp: 57 },
+        bs: { hp: 68, at: 80, df: 55, sa: 55, sd: 50, sp: 57 },
         weightkg: 20.5,
         nfe: true,
         abilities: { 0: 'Rough Skin' }
@@ -3238,7 +3238,7 @@ var DPP_PATCH = {
     },
     JangmoO: {
         types: ['Dragon', 'Fighting'],
-        bs: { hp: 59, at: 76, df: 68, sa: 40, sd: 55, sp: 51 },
+        bs: { hp: 59, at: 76, df: 74, sa: 45, sd: 55, sp: 56 },
         weightkg: 345,
         abilities: { 0: 'Iron Fist' },
         gender: 'N'
