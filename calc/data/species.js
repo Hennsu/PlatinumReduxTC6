@@ -1480,14 +1480,14 @@ var ADV_PATCH = {
     Electrode: { abilities: { 0: 'Technician' } },
     Exeggcute: { abilities: { 0: 'Unaware' } },
     Exeggutor: { abilities: { 0: 'Unaware' } },
-    'Sirfetch\u2019d': { abilities: { 0: 'Scrappy' } },
+    'Sirfetch\u2019d': { abilities: { 0: 'Super Luck' } },
     Fearow: { abilities: { 0: 'Motor Drive' } },
     Flareon: { abilities: { 0: 'Flash Fire' } },
     Gastly: { abilities: { 0: 'Bad Dreams' } },
     Gengar: { abilities: { 0: 'Levitate' } },
     Geodude: { abilities: { 0: 'Solid Rock' } },
     Gloom: { abilities: { 0: 'Effect Spore' } },
-    Golbat: { abilities: { 0: 'Speed Boost' } },
+    Golbat: { abilities: { 0: 'Super Luck' } },
     Golduck: { abilities: { 0: 'Bad Dreams' } },
     Golem: { abilities: { 0: 'Solid Rock' } },
     Graveler: { abilities: { 0: 'Solid Rock' } },
@@ -1591,7 +1591,7 @@ var ADV_PATCH = {
     Weezing: { abilities: { 0: 'Levitate' } },
     Wigglytuff: { abilities: { 0: 'Analyst' } },
     Zapdos: { abilities: { 0: 'Volt Absorb' } },
-    Zubat: { abilities: { 0: 'Speed Boost' } },
+    Zubat: { abilities: { 0: 'Super Luck' } },
     Aipom: { abilities: { 0: 'Run Away' } },
     Ampharos: { abilities: { 0: 'Static' } },
     Ariados: { abilities: { 0: 'Precision' } },
@@ -1603,7 +1603,7 @@ var ADV_PATCH = {
     Chikorita: { abilities: { 0: 'Thick Fat' } },
     Chinchou: { abilities: { 0: 'Volt Absorb' } },
     Corsola: { abilities: { 0: 'Hustle' } },
-    Crobat: { abilities: { 0: 'Speed Boost' } },
+    Crobat: { abilities: { 0: 'Super Luck' } },
     Croconaw: { abilities: { 0: 'Intimidate' } },
     Cyndaquil: { abilities: { 0: 'Solar Power' } },
     Delibird: { abilities: { 0: 'Snow Warning' } },
@@ -1693,7 +1693,7 @@ var ADV_PATCH = {
         types: ['Dragon', 'Psychic'],
         bs: { hp: 96, at: 65, df: 82, sa: 108, sd: 107, sp: 86 },
         weightkg: 20.6,
-        abilities: { 0: 'Trace' }
+        abilities: { 0: 'Super Luck' }
     },
     Anorith: {
         types: ['Rock', 'Bug'],
@@ -1948,7 +1948,7 @@ var ADV_PATCH = {
     Illumise: {
         types: ['Bug', 'Water'],
         bs: { hp: 90, at: 60, df: 89, sa: 119, sd: 75, sp: 96 },
-        abilities: { 0: 'Tinted Lens' },
+        abilities: { 0: 'Super Luck' },
         weightkg: 17.7
     },
     Jirachi: {
@@ -2288,7 +2288,7 @@ var ADV_PATCH = {
         bs: { hp: 75, at: 55, df: 60, sa: 80, sd: 80, sp: 65 },
         weightkg: 1.2,
         nfe: true,
-        abilities: { 0: 'Trace' }
+        abilities: { 0: 'Super Luck' }
     },
     Swalot: {
         types: ['Poison', 'Ghost'],
@@ -2589,7 +2589,7 @@ var DPP_PATCH = {
         types: ['Poison', 'Dark'],
         bs: { hp: 115, at: 100, df: 110, sa: 68, sd: 87, sp: 70 },
         weightkg: 61.5,
-        abilities: { 0: 'Poison Point' }
+        abilities: { 0: 'Super Luck' }
     },
     Drifblim: {
         types: ['Ghost', 'Flying'],
@@ -3008,7 +3008,7 @@ var DPP_PATCH = {
         bs: { hp: 70, at: 80, df: 90, sa: 50, sd: 80, sp: 70 },
         weightkg: 12,
         nfe: true,
-        abilities: { 0: 'Poison Point' }
+        abilities: { 0: 'Super Luck' }
     },
     Obstagoon: {
         types: ['Normal', 'Dark'],
