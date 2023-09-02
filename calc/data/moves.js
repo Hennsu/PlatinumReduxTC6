@@ -333,7 +333,7 @@ var ADV_PATCH = {
     'Weather Ball': { bp: 45, type: 'Normal' },
     Aromatherapy: { bp: 0, category: 'Status', type: 'Grass' },
     'Brick Break': { bp: 80, type: 'Fighting', makesContact: true },
-    'Sky Uppercut': { bp: 80, type: 'Fighting', makesContact: true },
+    'Sky Uppercut': { bp: 75, type: 'Fighting', makesContact: true },
     'Slack Off': { bp: 0, category: 'Status', type: 'Normal' },
     'Tail Glow': { bp: 0, category: 'Status', type: 'Bug' },
     'Torment': { bp: 75, type: 'Dark' },
@@ -895,7 +895,7 @@ var DPP_PATCH = {
         self: { boosts: { atk: -2} },
         category: 'Physical'
     },
-    'Roar of Time': { bp: 95, type: 'Dragon', category: 'Special' },
+    'Roar of Time': { bp: 90, type: 'Dragon', category: 'Special' },
     'Rock Climb': {
         bp: 80,
         type: 'Rock',
