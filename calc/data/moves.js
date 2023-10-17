@@ -402,6 +402,7 @@ var DPP_PATCH = {
     'Fury Attack': { category: 'Physical' },
     'Fury Swipes': { category: 'Physical' },
     'Giga Drain': { category: 'Special' },
+    'Noxious Blast': { category: 'Special' },
     Growl: { category: 'Special' },
     Gust: { category: 'Special' },
     'High Jump Kick': { bp: 105, category: 'Physical', recoil: [1, 4] },
