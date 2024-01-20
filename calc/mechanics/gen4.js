@@ -88,7 +88,7 @@ function calculateDPP(gen, attacker, defender, move, field) {
     else if (move.named('Judgment', 'Condemnation') && attacker.item && attacker.item.includes('Plate')) {
         move.type = (0, items_1.getItemBoostType)(attacker.item);
     }
-    else if (move.named('Natural Gift') && attacker.item && attacker.item.includes('Berry')) {
+    else if (move.named('Natural Giftxx') && attacker.item && attacker.item.includes('Berry')) {
         var gift = (0, items_1.getNaturalGift)(gen, attacker.item);
         move.type = gift.t;
         move.bp = gift.p;
@@ -146,8 +146,8 @@ function calculateDPP(gen, attacker, defender, move, field) {
                 desc.moveBP = basePower;
             }
             break;
-        case 'Eruption':
-        case 'Water Spout':
+        case 'Eruptionxx':
+        case 'Water Spoutxx':
             basePower = Math.max(1, Math.floor((basePower * attacker.curHP()) / attacker.maxHP()));
             desc.moveBP = basePower;
             break;
@@ -168,7 +168,7 @@ function calculateDPP(gen, attacker, defender, move, field) {
             desc.moveBP = basePower;
             desc.attackerItem = attacker.item;
             break;
-        case 'Grass Knot':
+        case 'Grass Knotxx':
         case 'Low Kick':
             var w = defender.weightkg;
             basePower = w >= 200 ? 120 : w >= 100 ? 100 : w >= 50 ? 80 : w >= 25 ? 60 : w >= 10 ? 40 : 20;
@@ -184,7 +184,7 @@ function calculateDPP(gen, attacker, defender, move, field) {
                 desc.moveBP = basePower;
             }
             break;
-        case 'Punishment':
+        case 'Punishmentxx':
             basePower = Math.min(200, 60 + 20 * (0, util_1.countBoosts)(gen, defender.boosts));
             desc.moveBP = basePower;
             break;
