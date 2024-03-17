@@ -108,7 +108,7 @@ var RBY = {
     },
     Chansey: {
         types: ['Normal'],
-        bs: { hp: 130, at: 55, df: 45, sp: 40, sl: 105 },
+        bs: { hp: 100, at: 55, df: 55, sp: 40, sl: 105 },
         weightkg: 34.6
     },
     Charizard: {
@@ -850,7 +850,7 @@ var GSC_PATCH = {
     Bulbasaur: { bs: { sa: 80, sd: 75 } },
     Butterfree: { bs: { sa: 112, sd: 96 } },
     Caterpie: { bs: { sa: 50, sd: 75 } },
-    Chansey: { bs: { sa: 60, sd: 80 }, nfe: true },
+    Chansey: { bs: { sa: 60, sd: 100 }, nfe: true },
     Charizard: { bs: { sa: 126, sd: 85 } },
     Charmander: { bs: { sa: 75, sd: 58 } },
     Charmeleon: { bs: { sa: 95, sd: 70 } },
@@ -1423,7 +1423,7 @@ var GSC_PATCH = {
     },
     Ursaring: {
         types: ['Normal', 'Fighting'],
-        bs: { hp: 105, at: 105, df: 91, sa: 60, sd: 83, sp: 81 },
+        bs: { hp: 105, at: 105, df: 96, sa: 55, sd: 83, sp: 81 },
         weightkg: 125.8
     },
     Wooper: {
@@ -2027,7 +2027,7 @@ var ADV_PATCH = {
     },
     Lunatone: {
         types: ['Rock', 'Ghost'],
-        bs: { hp: 98, at: 64, df: 123, sa: 111, sd: 78, sp: 65 },
+        bs: { hp: 98, at: 64, df: 78, sa: 111, sd: 123, sp: 65 },
         weightkg: 168,
         abilities: { 0: 'Levitate' },
         gender: 'N'
@@ -2195,7 +2195,7 @@ var ADV_PATCH = {
         bs: { hp: 60, at: 55, df: 65, sa: 70, sd: 60, sp: 55 },
         weightkg: 4,
         nfe: true,
-        abilities: { 0: 'Solar Power' }
+        abilities: { 0: 'Technician' }
     },
     Seviper: {
         types: ['Poison', 'Normal'],
@@ -2489,6 +2489,12 @@ var DPP_PATCH = {
         weightkg: 70,
         abilities: { 0: 'Precision' }
     },
+    Minun: {
+        types: ['Dark', 'Steel'],
+        bs: { hp: 76, at: 125, df: 110, sa: 60, sd: 83, sp: 86 },
+        weightkg: 70,
+        abilities: { 0: 'Precision' }
+    },
     Bronzong: {
         types: ['Steel', 'Poison'],
         bs: { hp: 91, at: 60, df: 120, sa: 92, sd: 101, sp: 61 },
@@ -2518,7 +2524,20 @@ var DPP_PATCH = {
         nfe: true,
         abilities: { 0: 'Shed Skin' }
     },
+    Cleffa: {
+        types: ['Bug'],
+        bs: { hp: 73, at: 55, df: 77, sa: 60, sd: 85, sp: 40 },
+        weightkg: 3.4,
+        nfe: true,
+        abilities: { 0: 'Shed Skin' }
+    },
     Chandelure: {
+        types: ['Ghost', 'Fire'],
+        bs: { hp: 77, at: 60, df: 90, sa: 148, sd: 100, sp: 78 },
+        weightkg: 34.3,
+        abilities: { 0: 'Levitate' }
+    },
+    Happiny: {
         types: ['Ghost', 'Fire'],
         bs: { hp: 77, at: 60, df: 90, sa: 148, sd: 100, sp: 78 },
         weightkg: 34.3,
@@ -2532,6 +2551,12 @@ var DPP_PATCH = {
         abilities: { 0: 'Iron Fist' }
     },
     Cofagrigus: {
+        types: ['Ghost', 'Ice'],
+        bs: { hp: 79, at: 60, df: 142, sa: 108, sd: 96, sp: 56 },
+        weightkg: 76.5,
+        abilities: { 0: 'Shed Skin' }
+    },
+    Chatot: {
         types: ['Ghost', 'Ice'],
         bs: { hp: 79, at: 60, df: 142, sa: 108, sd: 96, sp: 56 },
         weightkg: 76.5,
@@ -2572,7 +2597,20 @@ var DPP_PATCH = {
         abilities: { 0: 'Hustle' },
         nfe: true
     },
+    Smoochum: {
+        types: ['Dark', 'Dragon'],
+        bs: { hp: 57, at: 60, df: 50, sa: 65, sd: 70, sp: 48 },
+        weightkg: 17.3,
+        abilities: { 0: 'Hustle' },
+        nfe: true
+    },
     Crustle: {
+        types: ['Bug', 'Rock'],
+        bs: { hp: 93, at: 95, df: 106, sa: 81, sd: 117, sp: 53 },
+        weightkg: 200,
+        abilities: { 0: 'Water Absorb' }
+    },
+    Gastrodon: {
         types: ['Bug', 'Rock'],
         bs: { hp: 93, at: 95, df: 106, sa: 81, sd: 117, sp: 53 },
         weightkg: 200,
@@ -2623,6 +2661,13 @@ var DPP_PATCH = {
         abilities: { 0: 'Snow Cloak' }
     },
     Frillish: {
+        types: ['Water', 'Ghost'],
+        bs: { hp: 95, at: 55, df: 75, sa: 75, sd: 50, sp: 65 },
+        weightkg: 33,
+        nfe: true,
+        abilities: { 0: 'Poison Point' }
+    },
+    Wynaut: {
         types: ['Water', 'Ghost'],
         bs: { hp: 95, at: 55, df: 75, sa: 75, sd: 50, sp: 65 },
         weightkg: 33,
@@ -2682,7 +2727,22 @@ var DPP_PATCH = {
         gender: 'N',
         abilities: { 0: 'No Guard' }
     },
+    Tyrogue: {
+        types: ['Ground', 'Ghost'],
+        bs: { hp: 90, at: 95, df: 80, sa: 45, sd: 50, sp: 55 },
+        weightkg: 92,
+        nfe: true,
+        gender: 'N',
+        abilities: { 0: 'No Guard' }
+    },
     Golurk: {
+        types: ['Ground', 'Ghost'],
+        bs: { hp: 111, at: 122, df: 90, sa: 61, sd: 73, sp: 66 },
+        weightkg: 330,
+        gender: 'N',
+        abilities: { 0: 'No Guard' }
+    },
+    Azurill: {
         types: ['Ground', 'Ghost'],
         bs: { hp: 111, at: 122, df: 90, sa: 61, sd: 73, sp: 66 },
         weightkg: 330,
@@ -2733,6 +2793,12 @@ var DPP_PATCH = {
         weightkg: 160,
         abilities: { 0: 'Levitate' }
     },
+    Magby: {
+        types: ['Dark', 'Dragon'],
+        bs: { hp: 92, at: 90, df: 85, sa: 125, sd: 90, sp: 98 },
+        weightkg: 160,
+        abilities: { 0: 'Levitate' }
+    },
     Infernape: {
         types: ['Fire', 'Fighting'],
         bs: { hp: 79, at: 108, df: 86, sa: 78, sd: 77, sp: 118 },
@@ -2745,7 +2811,20 @@ var DPP_PATCH = {
         weightkg: 135,
         abilities: { 0: 'Poison Point' }
     },
+    Budew: {
+        types: ['Water', 'Ghost'],
+        bs: { hp: 130, at: 70, df: 95, sa: 90, sd: 70, sp: 70 },
+        weightkg: 135,
+        abilities: { 0: 'Poison Point' }
+    },
     Krokorok: {
+        types: ['Ground', 'Dark'],
+        bs: { hp: 75, at: 95, df: 75, sa: 55, sd: 60, sp: 80 },
+        weightkg: 33.4,
+        nfe: true,
+        abilities: { 0: 'Intimidate' }
+    },
+    Mesprit: {
         types: ['Ground', 'Dark'],
         bs: { hp: 75, at: 95, df: 75, sa: 55, sd: 60, sp: 80 },
         weightkg: 33.4,
@@ -2758,7 +2837,20 @@ var DPP_PATCH = {
         weightkg: 96.3,
         abilities: { 0: 'Intimidate' }
     },
+    Azelf: {
+        types: ['Ground', 'Dark'],
+        bs: { hp: 99, at: 119, df: 85, sa: 60, sd: 70, sp: 92 },
+        weightkg: 96.3,
+        abilities: { 0: 'Intimidate' }
+    },
     Lampent: {
+        types: ['Ghost', 'Fire'],
+        bs: { hp: 60, at: 45, df: 80, sa: 115, sd: 85, sp: 70 },
+        weightkg: 13,
+        nfe: true,
+        abilities: { 0: 'Levitate' }
+    },
+    'Mime Jr.': {
         types: ['Ghost', 'Fire'],
         bs: { hp: 60, at: 45, df: 80, sa: 115, sd: 85, sp: 70 },
         weightkg: 13,
@@ -2772,6 +2864,13 @@ var DPP_PATCH = {
         nfe: true,
         abilities: { 0: 'Flame Body' }
     },
+    Pichu: {
+        types: ['Bug', 'Fire'],
+        bs: { hp: 70, at: 55, df: 80, sa: 100, sd: 60, sp: 61 },
+        weightkg: 28.8,
+        nfe: true,
+        abilities: { 0: 'Flame Body' }
+    },
     Leafeon: {
         types: ['Grass', 'Fighting'],
         bs: { hp: 80, at: 125, df: 90, sa: 60, sd: 75, sp: 110 },
@@ -2779,6 +2878,13 @@ var DPP_PATCH = {
         abilities: { 0: 'Effect Spore' }
     },
     Litwick: {
+        types: ['Ghost', 'Fire'],
+        bs: { hp: 45, at: 40, df: 70, sa: 80, sd: 75, sp: 55 },
+        weightkg: 3.1,
+        nfe: true,
+        abilities: { 0: 'Flame Body' }
+    },
+    Bonsly: {
         types: ['Ghost', 'Fire'],
         bs: { hp: 45, at: 40, df: 70, sa: 80, sd: 75, sp: 55 },
         weightkg: 3.1,
@@ -2850,6 +2956,13 @@ var DPP_PATCH = {
         abilities: { 0: 'No Guard' }
     },
     Pawniard: {
+        types: ['Dark', 'Steel'],
+        bs: { hp: 55, at: 90, df: 85, sa: 45, sd: 70, sp: 81 },
+        weightkg: 10.2,
+        nfe: true,
+        abilities: { 0: 'Precision' }
+    },
+    Plusle: {
         types: ['Dark', 'Steel'],
         bs: { hp: 55, at: 90, df: 85, sa: 45, sd: 70, sp: 81 },
         weightkg: 10.2,
@@ -2961,7 +3074,21 @@ var DPP_PATCH = {
         nfe: true,
         abilities: { 0: 'Intimidate' }
     },
+    Uxie: {
+        types: ['Ground', 'Dark'],
+        bs: { hp: 55, at: 70, df: 70, sa: 45, sd: 50, sp: 55 },
+        weightkg: 15.2,
+        nfe: true,
+        abilities: { 0: 'Intimidate' }
+    },
     Annihilape: {
+        types: ['Fighting', 'Ghost'],
+        bs: { hp: 110, at: 115, df: 80, sa: 65, sd: 91, sp: 90 },
+        weightkg: 2.1,
+        abilities: { 0: 'Iron Fist' },
+        gender: 'N',
+    },
+    Ditto: {
         types: ['Fighting', 'Ghost'],
         bs: { hp: 110, at: 115, df: 80, sa: 65, sd: 91, sp: 90 },
         weightkg: 2.1,
@@ -3024,6 +3151,13 @@ var DPP_PATCH = {
         nfe: true,
         abilities: { 0: 'Sand Veil' }
     },
+    Aipom: {
+        types: ['Rock'],
+        bs: { hp: 67, at: 83, df: 76, sa: 51, sd: 51, sp: 93 },
+        weightkg: 12,
+        nfe: true,
+        abilities: { 0: 'Sand Veil' }
+    },
     Spoink: {
         types: ['Psychic'],
         bs: { hp: 68, at: 51, df: 63, sa: 76, sd: 100, sp: 71 },
@@ -3045,7 +3179,21 @@ var DPP_PATCH = {
         nfe: true,
         abilities: { 0: 'Water Absorb' }
     },
+    Dunsparce: {
+        types: ['Poison', 'Ground'],
+        bs: { hp: 138, at: 86, df: 79, sa: 81, sd: 91, sp: 50 },
+        weightkg: 12,
+        nfe: true,
+        abilities: { 0: 'Water Absorb' }
+    },
     Ursaluna: {
+        types: ['Normal', 'Ground'],
+        bs: { hp: 131, at: 118, df: 81, sa: 60, sd: 96, sp: 62 },
+        weightkg: 12,
+        nfe: true,
+        abilities: { 0: 'Thick Fat' }
+    },
+    Hitmontop: {
         types: ['Normal', 'Ground'],
         bs: { hp: 131, at: 121, df: 88, sa: 60, sd: 96, sp: 62 },
         weightkg: 12,
@@ -3053,6 +3201,13 @@ var DPP_PATCH = {
         abilities: { 0: 'Thick Fat' }
     },
     Lycanroc: {
+        types: ['Rock', 'Dark'],
+        bs: { hp: 79, at: 116, df: 98, sa: 60, sd: 81, sp: 127 },
+        weightkg: 12,
+        nfe: true,
+        abilities: { 0: 'Sand Veil' }
+    },
+    Ambipom: {
         types: ['Rock', 'Dark'],
         bs: { hp: 79, at: 116, df: 98, sa: 60, sd: 81, sp: 127 },
         weightkg: 12,
@@ -3162,6 +3317,12 @@ var DPP_PATCH = {
         weightkg: 46,
         abilities: { 0: 'Flame Body' }
     },
+    Froslass: {
+        types: ['Bug', 'Fire'],
+        bs: { hp: 99, at: 68, df: 97, sa: 130, sd: 73, sp: 85 },
+        weightkg: 46,
+        abilities: { 0: 'Flame Body' }
+    },
     Weavile: {
         types: ['Dark', 'Ice'],
         bs: { hp: 77, at: 117, df: 76, sa: 60, sd: 87, sp: 121 },
@@ -3174,7 +3335,20 @@ var DPP_PATCH = {
         weightkg: 6.5,
         abilities: { 0: 'Shed Skin' },
     },
+    Igglybuff: {
+        types: ['Bug', 'Ground'],
+        bs: { hp: 88, at: 65, df: 122, sa: 83, sd: 112, sp: 59 },
+        weightkg: 6.5,
+        abilities: { 0: 'Shed Skin' },
+    },
     Yamask: {
+        types: ['Ghost'],
+        bs: { hp: 60, at: 50, df: 115, sa: 75, sd: 75, sp: 50 },
+        weightkg: 1.5,
+        abilities: { 0: 'Magic Guard' },
+        nfe: true
+    },
+    Mothim: {
         types: ['Ghost'],
         bs: { hp: 60, at: 50, df: 115, sa: 75, sd: 75, sp: 50 },
         weightkg: 1.5,
@@ -3201,7 +3375,21 @@ var DPP_PATCH = {
         abilities: { 0: 'Swift Swim' },
         gender: 'N'
     },
+    Ninjask: {
+        types: ['Electric', 'Electric'],
+        bs: { hp: 61, at: 95, df: 57, sa: 90, sd: 70, sp: 74 },
+        weightkg: 345,
+        abilities: { 0: 'Swift Swim' },
+        gender: 'N'
+    },
     Eelektross: {
+        types: ['Electric', 'Poison'],
+        bs: { hp: 91, at: 115, df: 77, sa: 105, sd: 85, sp: 87 },
+        weightkg: 345,
+        abilities: { 0: 'Swift Swim' },
+        gender: 'N'
+    },
+    Shedinja: {
         types: ['Electric', 'Poison'],
         bs: { hp: 91, at: 115, df: 77, sa: 105, sd: 85, sp: 87 },
         weightkg: 345,
@@ -3215,7 +3403,21 @@ var DPP_PATCH = {
         abilities: { 0: 'Sand Veil' },
         gender: 'N'
     },
+    Corsola: {
+        types: ['Ground', 'Ground'],
+        bs: { hp: 82, at: 95, df: 60, sa: 40, sd: 70, sp: 78 },
+        weightkg: 345,
+        abilities: { 0: 'Sand Veil' },
+        gender: 'N'
+    },
     Excadrill: {
+        types: ['Ground', 'Steel'],
+        bs: { hp: 105, at: 137, df: 75, sa: 65, sd: 85, sp: 83 },
+        weightkg: 345,
+        abilities: { 0: 'Sand Veil' },
+        gender: 'N'
+    },
+    Phione: {
         types: ['Ground', 'Steel'],
         bs: { hp: 105, at: 137, df: 75, sa: 65, sd: 85, sp: 83 },
         weightkg: 345,
@@ -3229,7 +3431,21 @@ var DPP_PATCH = {
         abilities: { 0: 'Water Absorb' },
         gender: 'N'
     },
+    Surskit: {
+        types: ['Ghost', 'Ground'],
+        bs: { hp: 88, at: 55, df: 91, sa: 76, sd: 65, sp: 42 },
+        weightkg: 345,
+        abilities: { 0: 'Water Absorb' },
+        gender: 'N'
+    },
     Palossand: {
+        types: ['Ghost', 'Ground'],
+        bs: { hp: 109, at: 66, df: 115, sa: 98, sd: 85, sp: 52 },
+        weightkg: 345,
+        abilities: { 0: 'Water Absorb' },
+        gender: 'N'
+    },
+    Masquerain: {
         types: ['Ghost', 'Ground'],
         bs: { hp: 109, at: 66, df: 115, sa: 98, sd: 85, sp: 52 },
         weightkg: 345,
@@ -3243,7 +3459,21 @@ var DPP_PATCH = {
         abilities: { 0: 'Iron Fist' },
         gender: 'N'
     },
+    Clamperl: {
+        types: ['Dragon', 'Fighting'],
+        bs: { hp: 59, at: 76, df: 74, sa: 45, sd: 55, sp: 56 },
+        weightkg: 345,
+        abilities: { 0: 'Iron Fist' },
+        gender: 'N'
+    },
     HakamoO: {
+        types: ['Dragon', 'Fighting'],
+        bs: { hp: 69, at: 100, df: 85, sa: 59, sd: 65, sp: 71 },
+        weightkg: 345,
+        abilities: { 0: 'Iron Fist' },
+        gender: 'N'
+    },
+    Huntail: {
         types: ['Dragon', 'Fighting'],
         bs: { hp: 69, at: 100, df: 85, sa: 59, sd: 65, sp: 71 },
         weightkg: 345,
@@ -3257,6 +3487,13 @@ var DPP_PATCH = {
         abilities: { 0: 'Bad Dreams' },
         gender: 'N'
     },
+    Unown: {
+        types: ['Ghost', 'Grass'],
+        bs: { hp: 69, at: 80, df: 65, sa: 85, sd: 73, sp: 68 },
+        weightkg: 345,
+        abilities: { 0: 'Bad Dreams' },
+        gender: 'N'
+    },
     Trevenant: {
         types: ['Ghost', 'Grass'],
         bs: { hp: 113, at: 105, df: 81, sa: 95, sd: 84, sp: 62 },
@@ -3264,7 +3501,20 @@ var DPP_PATCH = {
         abilities: { 0: 'Bad Dreams' },
         gender: 'N'
     },
+    Wobbuffet: {
+        types: ['Ghost', 'Grass'],
+        bs: { hp: 85, at: 110, df: 76, sa: 65, sd: 82, sp: 56 },
+        weightkg: 71,
+        abilities: { 0: 'Natural Cure' }
+    },
     KommoO: {
+        types: ['Dragon', 'Fighting'],
+        bs: { hp: 79, at: 118, df: 125, sa: 66, sd: 99, sp: 84 },
+        weightkg: 345,
+        abilities: { 0: 'Iron Fist' },
+        gender: 'N'
+    },
+    Gorebyss: {
         types: ['Dragon', 'Fighting'],
         bs: { hp: 79, at: 118, df: 125, sa: 66, sd: 99, sp: 84 },
         weightkg: 345,
@@ -3278,7 +3528,21 @@ var DPP_PATCH = {
         abilities: { 0: 'Reckless' },
         gender: 'N'
     },
+    Cherubi: {
+        types: ['Normal', 'Flying'],
+        bs: { hp: 44, at: 69, df: 45, sa: 40, sd: 55, sp: 92 },
+        weightkg: 345,
+        abilities: { 0: 'Reckless' },
+        gender: 'N'
+    },
     Flechinder: {
+        types: ['Fire', 'Flying'],
+        bs: { hp: 59, at: 81, df: 55, sa: 50, sd: 75, sp: 120 },
+        weightkg: 345,
+        abilities: { 0: 'Reckless' },
+        gender: 'N'
+    },
+    Cherrim: {
         types: ['Fire', 'Flying'],
         bs: { hp: 59, at: 81, df: 55, sa: 50, sd: 75, sp: 120 },
         weightkg: 345,
@@ -3292,7 +3556,21 @@ var DPP_PATCH = {
         abilities: { 0: 'Reckless' },
         gender: 'N'
     },
+    Shellos: {
+        types: ['Fire', 'Flying'],
+        bs: { hp: 78, at: 96, df: 75, sa: 63, sd: 86, sp: 147 },
+        weightkg: 345,
+        abilities: { 0: 'Reckless' },
+        gender: 'N'
+    },
     Cubchoo: {
+        types: ['Ice', 'Ice'],
+        bs: { hp: 79, at: 76, df: 70, sa: 52, sd: 80, sp: 53 },
+        weightkg: 345,
+        abilities: { 0: 'Snow Cloak' },
+        gender: 'N'
+    },
+    Finneon: {
         types: ['Ice', 'Ice'],
         bs: { hp: 79, at: 76, df: 70, sa: 52, sd: 80, sp: 53 },
         weightkg: 345,
@@ -3306,7 +3584,21 @@ var DPP_PATCH = {
         abilities: { 0: 'Snow Cloak' },
         gender: 'N'
     },
+    Lumineon: {
+        types: ['Ice', 'Fighting'],
+        bs: { hp: 104, at: 131, df: 83, sa: 60, sd: 96, sp: 81 },
+        weightkg: 345,
+        abilities: { 0: 'Snow Cloak' },
+        gender: 'N'
+    },
     Dwebble: {
+        types: ['Bug', 'Rock'],
+        bs: { hp: 50, at: 81, df: 91, sa: 61, sd: 96, sp: 41 },
+        weightkg: 345,
+        abilities: { 0: 'Water Absorb' },
+        gender: 'N'
+    },
+    Smeargle: {
         types: ['Bug', 'Rock'],
         bs: { hp: 50, at: 81, df: 91, sa: 61, sd: 96, sp: 41 },
         weightkg: 345,
@@ -3320,7 +3612,21 @@ var DPP_PATCH = {
         abilities: { 0: 'Clear Body' },
         gender: 'N'
     },
+    Pachirisu: {
+        types: ['Flying'],
+        bs: { hp: 51, at: 72, df: 45, sa: 63, sd: 60, sp: 66 },
+        weightkg: 345,
+        abilities: { 0: 'Clear Body' },
+        gender: 'N'
+    },
     Corvisqire: {
+        types: ['Flying'],
+        bs: { hp: 73, at: 87, df: 65, sa: 78, sd: 85, sp: 70 },
+        weightkg: 345,
+        abilities: { 0: 'Clear Body' },
+        gender: 'N'
+    },
+    Buizel: {
         types: ['Flying'],
         bs: { hp: 73, at: 87, df: 65, sa: 78, sd: 85, sp: 70 },
         weightkg: 345,
@@ -3334,7 +3640,21 @@ var DPP_PATCH = {
         abilities: { 0: 'Filter' },
         gender: 'N'
     },
+    Floatzel: {
+        types: ['Flying', 'Steel'],
+        bs: { hp: 98, at: 87, df: 89, sa: 73, sd: 107, sp: 71 },
+        weightkg: 345,
+        abilities: { 0: 'Filter' },
+        gender: 'N'
+    },
     Sizzlipede: {
+        types: ['Bug', 'Fire'],
+        bs: { hp: 76, at: 93, df: 60, sa: 82, sd: 85, sp: 79 },
+        weightkg: 345,
+        abilities: { 0: 'Sunny Heal' },
+        gender: 'N'
+    },
+    Skitty: {
         types: ['Bug', 'Fire'],
         bs: { hp: 76, at: 93, df: 60, sa: 82, sd: 85, sp: 79 },
         weightkg: 345,
@@ -3348,7 +3668,21 @@ var DPP_PATCH = {
         abilities: { 0: 'Solar Rush' },
         gender: 'N'
     },
+    Delcatty: {
+        types: ['Bug', 'Fire'],
+        bs: { hp: 107, at: 110, df: 70, sa: 83, sd: 94, sp: 86 },
+        weightkg: 345,
+        abilities: { 0: 'Solar Rush' },
+        gender: 'N'
+    },
     Grubbin: {
+        types: ['Bug'],
+        bs: { hp: 61, at: 70, df: 57, sa: 50, sd: 66, sp: 51 },
+        weightkg: 345,
+        abilities: { 0: 'Shield Dust' },
+        gender: 'N'
+    },
+    Glameow: {
         types: ['Bug'],
         bs: { hp: 61, at: 70, df: 57, sa: 50, sd: 66, sp: 51 },
         weightkg: 345,
@@ -3362,7 +3696,21 @@ var DPP_PATCH = {
         abilities: { 0: 'Shield Dust' },
         gender: 'N'
     },
+    Purugly: {
+        types: ['Bug', 'Electric'],
+        bs: { hp: 89, at: 95, df: 70, sa: 60, sd: 83, sp: 57 },
+        weightkg: 345,
+        abilities: { 0: 'Shield Dust' },
+        gender: 'N'
+    },
     Vikavolt: {
+        types: ['Bug', 'Electric'],
+        bs: { hp: 87, at: 125, df: 71, sa: 65, sd: 83, sp: 99 },
+        weightkg: 345,
+        abilities: { 0: 'Reckless' },
+        gender: 'N'
+    },
+    Chingling: {
         types: ['Bug', 'Electric'],
         bs: { hp: 87, at: 125, df: 71, sa: 65, sd: 83, sp: 99 },
         weightkg: 345,
@@ -3376,7 +3724,21 @@ var DPP_PATCH = {
         abilities: { 0: 'Proficiency' },
         gender: 'N'
     },
+    Wailmer: {
+        types: ['Poison', 'Fire'],
+        bs: { hp: 63, at: 61, df: 60, sa: 91, sd: 70, sp: 89 },
+        weightkg: 345,
+        abilities: { 0: 'Proficiency' },
+        gender: 'N'
+    },
     Salazzle: {
+        types: ['Poison', 'Fire'],
+        bs: { hp: 73, at: 67, df: 75, sa: 112, sd: 82, sp: 129 },
+        weightkg: 345,
+        abilities: { 0: 'Proficiency' },
+        gender: 'N'
+    },
+    Wailord: {
         types: ['Poison', 'Fire'],
         bs: { hp: 73, at: 67, df: 75, sa: 112, sd: 82, sp: 129 },
         weightkg: 345,
@@ -3390,6 +3752,13 @@ var DPP_PATCH = {
         abilities: { 0: 'Adaptability' },
         gender: 'N'
     },
+    Regigigas: {
+        types: ['Bug', 'Steel'],
+        bs: { hp: 76, at: 83, df: 90, sa: 106, sd: 99, sp: 91 },
+        weightkg: 345,
+        abilities: { 0: 'Adaptability' },
+        gender: 'N'
+    },
     Nihilego: {
         types: ['Rock', 'Poison'],
         bs: { hp: 109, at: 69, df: 74, sa: 98, sd: 126, sp: 94 },
@@ -3397,7 +3766,21 @@ var DPP_PATCH = {
         abilities: { 0: 'Poison Point' },
         gender: 'N'
     },
+    Kricketot: {
+        types: ['Rock', 'Poison'],
+        bs: { hp: 109, at: 53, df: 47, sa: 127, sd: 131, sp: 103 },
+        weightkg: 55.5,
+        abilities: { 0: 'Beast Boost' },
+        gender: 'N'
+    },
     Rolycoly: {
+        types: ['Rock', 'Rock'],
+        bs: { hp: 75, at: 50, df: 70, sa: 65, sd: 60, sp: 31 },
+        weightkg: 345,
+        abilities: { 0: 'Flame Body' },
+        gender: 'N'
+    },
+    Snubbull: {
         types: ['Rock', 'Rock'],
         bs: { hp: 75, at: 50, df: 70, sa: 65, sd: 60, sp: 31 },
         weightkg: 345,
@@ -3411,7 +3794,21 @@ var DPP_PATCH = {
         abilities: { 0: 'Flame Body' },
         gender: 'N'
     },
+    Granbull: {
+        types: ['Rock', 'Fire'],
+        bs: { hp: 95, at: 65, df: 90, sa: 80, sd: 70, sp: 35 },
+        weightkg: 345,
+        abilities: { 0: 'Flame Body' },
+        gender: 'N'
+    },
     Coalossal: {
+        types: ['Rock', 'Fire'],
+        bs: { hp: 132, at: 70, df: 108, sa: 106, sd: 97, sp: 52 },
+        weightkg: 345,
+        abilities: { 0: 'Solid Rock' },
+        gender: 'N'
+    },
+    Luvdisc: {
         types: ['Rock', 'Fire'],
         bs: { hp: 132, at: 70, df: 108, sa: 106, sd: 97, sp: 52 },
         weightkg: 345,
@@ -3425,7 +3822,21 @@ var DPP_PATCH = {
         abilities: { 0: 'Snow Cloak' },
         gender: 'N'
     },
+    Carnivine: {
+        types: ['Dark', 'Ice'],
+        bs: { hp: 77, at: 115, df: 77, sa: 103, sd: 83, sp: 130 },
+        weightkg: 345,
+        abilities: { 0: 'Snow Cloak' },
+        gender: 'N'
+    },
     Xurkitree: {
+        types: ['Electric', 'Grass'],
+        bs: { hp: 82, at: 103, df: 73, sa: 149, sd: 92, sp: 76 },
+        weightkg: 345,
+        abilities: { 0: 'Volt Absorb' },
+        gender: 'N'
+    },
+    Kricketune: {
         types: ['Electric', 'Grass'],
         bs: { hp: 82, at: 103, df: 73, sa: 149, sd: 92, sp: 76 },
         weightkg: 345,
@@ -3439,7 +3850,21 @@ var DPP_PATCH = {
         abilities: { 0: 'Rough Skin' },
         gender: 'N'
     },
+    Shellder: {
+        types: ['Grass', 'Steel'],
+        bs: { hp: 65, at: 73, df: 113, sa: 57, sd: 82, sp: 30 },
+        weightkg: 345,
+        abilities: { 0: 'Rough Skin' },
+        gender: 'N'
+    },
     Ferrothorn: {
+        types: ['Grass', 'Steel'],
+        bs: { hp: 73, at: 89, df: 133, sa: 66, sd: 107, sp: 51 },
+        weightkg: 345,
+        abilities: { 0: 'Rough Skin' },
+        gender: 'N'
+    },
+    Cloyster: {
         types: ['Grass', 'Steel'],
         bs: { hp: 73, at: 89, df: 133, sa: 66, sd: 107, sp: 51 },
         weightkg: 345,
@@ -3453,6 +3878,13 @@ var DPP_PATCH = {
         abilities: { 0: 'Sand Veil' },
         gender: 'N'
     },
+    Goldeen: {
+        types: ['Electric', 'Normal'],
+        bs: { hp: 58, at: 61, df: 61, sa: 99, sd: 81, sp: 93 },
+        weightkg: 345,
+        abilities: { 0: 'Sand Veil' },
+        gender: 'N'
+    },
     Heliolisk: {
         types: ['Electric', 'Normal'],
         bs: { hp: 72, at: 61, df: 77, sa: 124, sd: 98, sp: 114 },
@@ -3460,7 +3892,21 @@ var DPP_PATCH = {
         abilities: { 0: 'Volt Absorb' },
         gender: 'N'
     },
+    Seaking: {
+        types: ['Electric', 'Normal'],
+        bs: { hp: 72, at: 61, df: 77, sa: 124, sd: 98, sp: 114 },
+        weightkg: 345,
+        abilities: { 0: 'Volt Absorb' },
+        gender: 'N'
+    },
     Marshadow: {
+        types: ['Fighting', 'Ghost'],
+        bs: { hp: 79, at: 81, df: 81, sa: 122, sd: 91, sp: 101 },
+        weightkg: 345,
+        abilities: { 0: 'Hustle' },
+        gender: 'N'
+    },
+    Cresselia: {
         types: ['Fighting', 'Ghost'],
         bs: { hp: 79, at: 81, df: 81, sa: 122, sd: 91, sp: 101 },
         weightkg: 345,
@@ -3488,7 +3934,21 @@ var DPP_PATCH = {
         abilities: { 0: 'Levitate' },
         gender: 'N'
     },
+    Manaphy: {
+        types: ['Rock', 'Psychic'],
+        bs: { hp: 70, at: 65, df: 145, sa: 115, sd: 125, sp: 50 },
+        weightkg: 345,
+        abilities: { 0: 'Levitate' },
+        gender: 'N'
+    },
     Garbodor: {
+        types: ['Poison', 'Dark'],
+        bs: { hp: 124, at: 71, df: 81, sa: 94, sd: 103, sp: 63 },
+        weightkg: 345,
+        abilities: { 0: 'Liquid Ooze' },
+        gender: 'N'
+    },
+    Munchlax: {
         types: ['Poison', 'Dark'],
         bs: { hp: 124, at: 71, df: 81, sa: 94, sd: 103, sp: 63 },
         weightkg: 345,
@@ -3502,7 +3962,21 @@ var DPP_PATCH = {
         abilities: { 0: 'Immunity' },
         gender: 'N'
     },
+    Qwilfish: {
+        types: ['Flying', 'Dragon'],
+        bs: { hp: 71, at: 62, df: 59, sa: 89, sd: 73, sp: 103 },
+        weightkg: 345,
+        abilities: { 0: 'Immunity' },
+        gender: 'N'
+    },
     Noivern: {
+        types: ['Flying', 'Dragon'],
+        bs: { hp: 83, at: 68, df: 73, sa: 113, sd: 86, sp: 132 },
+        weightkg: 345,
+        abilities: { 0: 'Immunity' },
+        gender: 'N'
+    },
+    Mantyke: {
         types: ['Flying', 'Dragon'],
         bs: { hp: 83, at: 68, df: 73, sa: 113, sd: 86, sp: 132 },
         weightkg: 345,
@@ -3516,7 +3990,21 @@ var DPP_PATCH = {
         abilities: { 0: 'Liquid Ooze' },
         gender: 'N'
     },
+    Mantine: {
+        types: ['Poison'],
+        bs: { hp: 85, at: 58, df: 73, sa: 73, sd: 91, sp: 52 },
+        weightkg: 345,
+        abilities: { 0: 'Liquid Ooze' },
+        gender: 'N'
+    },
     Dragalge: {
+        types: ['Poison', 'Dragon'],
+        bs: { hp: 79, at: 70, df: 90, sa: 111, sd: 130, sp: 55 },
+        weightkg: 345,
+        abilities: { 0: 'Adaptability' },
+        gender: 'N'
+    },
+    Kecleon: {
         types: ['Poison', 'Dragon'],
         bs: { hp: 79, at: 70, df: 90, sa: 111, sd: 130, sp: 55 },
         weightkg: 345,
@@ -3530,7 +4018,21 @@ var DPP_PATCH = {
         abilities: { 0: 'Mold Breaker' },
         gender: 'N'
     },
+    Latias: {
+        types: ['Electric', 'Dragon'],
+        bs: { hp: 100, at: 150, df: 90, sa: 100, sd: 80, sp: 80 },
+        weightkg: 345,
+        abilities: { 0: 'Mold Breaker' },
+        gender: 'N'
+    },
     Zweilous: {
+        types: ['Dark', 'Dragon'],
+        bs: { hp: 81, at: 70, df: 72, sa: 75, sd: 81, sp: 71 },
+        weightkg: 50,
+        abilities: { 0: 'Hustle' },
+        nfe: true
+    },
+    Elekid: {
         types: ['Dark', 'Dragon'],
         bs: { hp: 81, at: 70, df: 72, sa: 75, sd: 81, sp: 71 },
         weightkg: 50,
@@ -4482,6 +4984,13 @@ var BW_PATCH = {
         abilities: { 0: 'Swift Swim' }
     },
     Tynamo: {
+        types: ['Electric'],
+        bs: { hp: 35, at: 55, df: 40, sa: 45, sd: 40, sp: 60 },
+        weightkg: 0.3,
+        abilities: { 0: 'Levitate' },
+        nfe: true
+    },
+    Nincada: {
         types: ['Electric'],
         bs: { hp: 35, at: 55, df: 40, sa: 45, sd: 40, sp: 60 },
         weightkg: 0.3,
@@ -5551,6 +6060,13 @@ var XY_PATCH = {
         abilities: { 0: 'Sap Sipper' }
     },
     Skrelp: {
+        types: ['Poison', 'Water'],
+        bs: { hp: 50, at: 60, df: 60, sa: 60, sd: 60, sp: 30 },
+        weightkg: 7.3,
+        nfe: true,
+        abilities: { 0: 'Adaptability' }
+    },
+    Castform: {
         types: ['Poison', 'Water'],
         bs: { hp: 50, at: 60, df: 60, sa: 60, sd: 60, sp: 30 },
         weightkg: 7.3,
@@ -7768,6 +8284,12 @@ var SS_PATCH = {
         nfe: true
     },
     Obstagoon: {
+        types: ['Dark', 'Normal'],
+        bs: { hp: 93, at: 90, df: 101, sa: 60, sd: 81, sp: 95 },
+        weightkg: 46,
+        abilities: { 0: 'Reckless' }
+    },
+    Chimecho: {
         types: ['Dark', 'Normal'],
         bs: { hp: 93, at: 90, df: 101, sa: 60, sd: 81, sp: 95 },
         weightkg: 46,
